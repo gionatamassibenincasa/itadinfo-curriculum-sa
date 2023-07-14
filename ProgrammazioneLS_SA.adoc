@@ -1,0 +1,944 @@
+﻿= Programmazione d'Informatica - Liceo Scientifico opzione scienze applicate
+Gionata Massi <gionata.massi@savoiabenincasa.it>
+Settembre 2017, A.S. 2017/2018
+:table-caption!:
+
+== Classe 1^a^ (PRIMA)
+
+=== UFC0 - Uso delle tecnologie dell'informazione e della comunicazione per l'apprendimento
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|0|Uso delle tecnologie dell'informazione e della comunicazione per l'apprendimento|Settembre|0 /6
+|===
+
+.Registrazione dei proprio dispositivo alla rete WiFi
+****
+.Abilità
+. Identificare l'indirizzo MAC della scheda di rete
+****
+
+.Uso efficace della piattaforma "G-Suite per la scuola"
+****
+.Conoscenza
+. La comunicazione tramite posta elettronica e l'applicazione Gmail
+. L'archiviazione dei contenuti e l'applicazione Drive
+. La ricerca dei contenuti e l'applicazione GoogleCloudSearch
+
+.Abilità
+. Aprire la web-mail e riconoscere i messaggi letti e non
+. Riconoscere il mittente, l'oggetto e il corpo del messaggio di posta
+. Ricercare i messaggi
+. Inviare una mail ad uno o più destinatari
+. Trovare le circolari che ci interessano
+. Scrivere un documento con Google Documenti
+. Ricercare un contenuto in base a parole chiave, tipo di file, propietario, data di modifica
+****
+
+=== UFC1 - Scrittura tecnico-scientifica
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Scrittura tecnico-scientifica|Ottobre-Novembre|1 /6
+|===
+
+.Introduzione alla comunicazione
+****
+.Conoscenza
+. I concetti di messaggio, mittente, destinatario, canale, codifica di sorgente, codifica di canale
+. I dati, le informazioni e la conoscenza
+
+.Abilità
+. Identificare gli attori e di una comunicazione
+. Distinguere tra dati, informazioni e conoscenza
+****
+
+.Presentazione orale di un lavoro tecnico-scientifico
+****
+.Conoscenza
+. Presentazioni orali e lucidi
+
+.Abilità
+. Scrivere i lucidi per una presentazione da proiettare
+****
+
+.Redazione di una relazione tecnico-scientifica
+****
+.Conoscenza
+. Struttura di una relazione: parte, capitolo, paragrafo, sotto-paragrafo, capoverso
+. Autore, titolo, e metadati del frontespizio e del retrofrontespizio
+. Elenchi ordinati, non ordinati e descrittivi
+. Figure, tabelle, equazioni ed algoritmi
+. I caratteri tipografici: tondo, lineare, corsivo, corsivo, tondo inclinato, maiuscoletto, neretto, a spaziatura fissa
+
+.Abilità
+. Aggiungere l'autore e il titolo nel frontespizio di una relazione
+. Suddividere un testo nei suoi elementi strutturali ed aggiungere i titoletti
+. Scrivere tabelle, immagini e altri contenuti flottanti con didascalie
+. Scrivere con elenchi ordinati, non ordinati e descrittivi
+. Enfatizzare il testo selezionando un  carattere tipografico opportuno
+****
+
+=== UFC2 - Architettura dei calcolatori elettronici digitali
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Architettura dei calcolatori elettronici digitali|Novembre-Dicembre|1 /6
+|===
+
+.Concetti di hardware e di software
+****
+.Conoscenza
+. Hardware e software
+. Licenze d'uso e classificazione in software proprietario e software libero
+. Classificazione del software per scopo
+
+.Abilità
+. Distinguere tra hardware e software
+. Distinguere tra software commerciale e software libero
+. Classificare i software di sistema, di utilità, per l'ufficio e per il calcolo
+****
+
+.Elementi funzionali della macchina di Von Newmann
+****
+.Conoscenza
+. CPU, memoria e bus
+. Memorie di massa
+. Periferiche d'ingresso e d'uscita
+
+.Abilità
+. Utilizzare in modo appropriato la terminologia tecnica
+. Confrontare le prestazioni dello hardware in base ai loro parametri caratteristici
+****
+
+=== UFC3 - Dati e codifiche
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Dati e codifiche|Dicembre-Gennaio|1 /6
+|===
+
+.Caratteri e codici ASCII e UNICODE
+****
+.Conoscenza
+. Rappresentazione dei caratteri con 5 bit
+. Standard ASCII a 7 bit
+. Standard UNICODE
+
+.Abilità
+. Codificare un testo usando codifiche binarie dei caratteri
+. Decodificare un testo codificato in binario
+. Comprendere le esigenze che hanno condotto allo sviluppo dello standard UNICODE
+****
+
+.Immagini monocromatiche e codifica della lunghezza delle sequenze
+****
+.Conoscenza
+. Rappresentazione di un'immagine monocromatica
+. Codifica dell'immagine mediante lunghezza delle sequenze
+
+.Abilità
+. Codificare un'immagine monocromatica mediante run-length encoding
+. Decodificare un'immagine monocromatica codificata mediante run-length encoding
+****
+
+.Numeri naturali e rappresentazioni posizionali
+****
+.Conoscenza
+. Codifica in base due dei numeri naturali
+
+.Abilità
+. Convertire un numero da base due a base dieci
+. Convertire un numero da base dieci a base due
+****
+
+=== UFC4 - Problemi, modelli, istanze e soluzioni
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Problemi, modelli, istanze e soluzioni|Febbraio-Aprile|2 /6
+|===
+
+.Il problema della ricerca
+****
+.Conoscenza
+. Formalizzazione del problema di ricerca e ipotesi sui dati
+. Algoritmo di ricerca lineare (o sequenziale o scansione)
+. Algoritmo di ricerca binaria (o dicotomica)
+. Tecniche hash
+
+.Abilità
+. Saper formalizzaare un problema di ricerca
+. Simulare l'esecuzione dell'algoritmo di ricerca lineare
+. Simulare l'esecuzione dell'algoritmo di ricerca binaria
+****
+
+.Il problema dell'ordinamento
+****
+.Conoscenza
+. Formalizzazione del problema dell'ordinamento e ipotesi sui dati
+. Algoritmo di ordinamento per selezione (selection sort)
+. Algoritmo di ordinamento per inserimento (insertion sort)
+. Algorimo di ordinamento a bolle (bubble sort)
+. Algoritmi di ordinamento per fusione (merge sort) e quicksort
+. Un algoritmo di ordinamento parallelo mediante rete di Batcher
+
+.Abilità
+. Saper formalizzare il concetto di ordinamento di una sequenza
+. Simulare l'algoritmo di ordinamento per selezione applicato ad una sequenza numerica
+. Simulare l'algoritmo di ordinamento per inserimento applicato ad una sequenza numerica
+. Simulare l'algoritmo di ordinamento a bolle applicato ad una sequenza numerica
+. Calcolare il numero di confronti e di scambi degli algoritmi di ordinamento basati su confronti e scambi
+. Comprendere i criteri di scelta di un algoritmo rispetto ad altri
+****
+
+.Problema e modello, istanza e soluzione
+****
+.Conoscenza
+. Concetto di problema, modello, istanza, soluzione, codifica e decodifica
+
+.Abilità
+. Astrarre il modello di semplici problemi di natura quantitativa e descrivere algoritmicamente il procedimento di soluzione
+****
+
+=== UFC5 - Sistemi operativi
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|5|Sistemi operativi|Aprile-Giugno|1 /6
+|===
+
+.File-system e organizzazione logico/gerarchica degli archivi
+****
+.Conoscenza
+. Organizzazione logica in file e gerachia delle directory
+
+.Abilità
+. Creare, rinominare, spostare e cancellare un file
+. Organizzare i file nelle directory
+****
+
+.L'interprete dei comandi
+****
+.Conoscenza
+. Invocare un programma
+. Elencare file e directory
+. Comandi di utilità
+. Comunicazione tra processi locali tramite pipe anonime
+
+.Abilità
+. Invocare un programma
+. Elencare file e directory
+. Creare una pipe anonima tra due o più utility
+. Comandi per la data, l'elenco dei file e delle directory, l'estrazione della testa e della coda di un file di testo, l'odinamento delle linee, l'estrazione di campi
+****
+
+.Programmi e processi
+****
+.Conoscenza
+. Concetto di file sorgente, codice macchina e programma eseguibile
+. Processo come immagine di programma in esecuzione
+
+.Abilità
+. Simulare l'esecuzione di un programma
+****
+
+== Classe 2^a^ (SECONDA)
+
+=== UFC1 - Struttura di internet e servizi
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Struttura di internet e servizi|Settembre-Novembre|1 /6
+|===
+
+.I servizi di Internet
+****
+.Conoscenza
+. Il web il protocollo HTTP
+. La posta elettronica e i protocolli SMTP e POP
+
+.Abilità
+. Usare un browser per visualizzare il traffico di rete
+****
+
+.Le reti di computer
+****
+.Conoscenza
+. Protocolli di comunicazione
+. Indirizzi IP e numeri di porta
+
+.Abilità
+. Saper valutare l'opportunità d'impiego di un protocollo di trasporto con o senza stato per un dato servizio
+****
+
+=== UFC2 - Documenti elettronici per il web
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Documenti elettronici per il web|Novembre-Gennaio|2 /6
+|===
+
+.Contenuti, presentazione e comportamento di una pagina web
+****
+.Conoscenza
+. Descrizione del contenuto tramite marcatori
+. Descrizione dell'aspetto tramite fogli di stile
+. Descrizione del comportamento tramite linguaggi specifici
+
+.Abilità
+
+. Riconoscere le finalità e i limiti dei linguaggi per il web
+****
+
+.Linguaggio HTML
+****
+.Conoscenza
+. Tag HEAD e BODY
+. Marcatori d'uso più comune
+
+.Abilità
+. Produrre una pagina web in HTML
+****
+
+.Modello a oggetti del documento e scripting
+****
+.Conoscenza
+. Albero DOM
+. Accesso ai nodi e impostazioni delle proprietà
+
+.Abilità
+. Navigare il DOM e modificarne i nodi
+****
+
+.Uso degli strumenti per gli sviluppatori
+****
+.Conoscenza
+. Gli strumenti per lo sviluppatore del web browser
+
+.Abilità
+. Usare il debugger, la visualizzazione degli elementi del DOM e la console
+****
+
+=== UFC3 - Sintassi e semantica di un linguaggio di programmazione
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Sintassi e semantica di un linguaggio di programmazione|Febbraio-Aprile|2 /6
+|===
+
+.Analisi lessicale e sintattica
+****
+.Conoscenza
+. Valori, tipi e espressioni
+. Analisi lessicale di un linguaggio formalizzato e sintassi di un linguaggio
+. Analisi sintattica di un linguaggio formalizzato e semantica di un programma
+
+.Abilità
+. Verificare che un programma sia sintatticamente corretto
+. Riconoscere un albero sintattico
+****
+
+.Definizione delle operazioni aritmetiche nell'insieme dei numeri naturali usando tre funzioni primitive
+****
+.Conoscenza
+. Definire la somma ricorsivamente
+. Definire la differenza ricorsivamente
+. Definire la moltiplicazione ricorsivamente
+. Definire la divisione ricorsivamente
+. Definire l'elevamento a potenza ricorsivamente
+
+.Abilità
+. Saper definire ricorsivamente le operazioni elementari
+****
+
+.Espressioni ricorsive
+****
+.Conoscenza
+. Definizione ricorsiva di una sequenza
+. Definizione ricorsiva delle funzioni fattoriale e generatrice della successione di Fibonacci
+. Ricorsione sulla coda e svolgimento
+
+.Abilità
+. Comprendere la definizione di un insieme data per induzione
+. Saper riscrivere le funzioni fattoriale e di Fibonacci per calcolarne il valore
+. Esprimere ricorvamente la lunghezza di una sequenza
+. Esprimere ricorsivamente la proprietà di ordinamento di una sequenza
+****
+
+.Logica proposizionale
+****
+.Conoscenza
+. Connettivi logici e tabelle di verità
+****
+
+.Operazioni sulle sequenze numeriche
+****
+.Conoscenza
+. Implementazione dell'algoritmo di ricerca lineare
+. Implementazione dell'algoritmo di ricerca binaria
+. Implementazione degli algoritmi di ricerca basati su confronti e scambi
+
+.Abilità
+. Saper descrivere gli algoritmi di ricerca basati su confronti e scambi usando un linguaggio di programmazione
+****
+
+.Paradigma imperativo
+****
+.Conoscenza
+. Concetto di stato e di variabile
+
+.Abilità
+. Dichiarare una variabile e assegnarle un valore
+****
+
+.Sequenza, selezione e iterazione
+****
+.Conoscenza
+. Flusso di esecuzione di istruzioni in sequenza
+. Ramificazione del flusso di esecuzione
+. Iterare l'esecuzione di un blocco d'istruzioni
+
+.Abilità
+. Usare i costrutti di sequenza, selezione e iterazione
+****
+
+=== UFC4 - Fogli elettronici
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Fogli elettronici|Aprile-Giugno|1 /6
+|===
+
+.Terminologia dei fogli di calcolo
+****
+.Conoscenza
+. Righe, colonne, celle del foglio di calcolo
+. Operazioni di filtraggio, riduzione e mappa nel foglio di calcolo
+
+.Abilità
+. Usare le operazioni di filtraggio, riduzione e mappa nel foglio di calcolo
+****
+
+.Uso del foglio di calcolo
+****
+.Abilità
+. Usare il foglio di calcolo per modellizzare  e risolvere le problematiche d'interesse per il corso di studi
+****
+
+== Classe 3^a^ (TERZA)
+
+=== UFC1 - Linguaggi di markup
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Linguaggi di markup|Settembre-Dicembre|1 /6
+|===
+
+.Cascade Style Sheet per la modifica degli attributi
+****
+.Conoscenza
+. Fogli di stile
+. Regole e selettori
+. Font tipografici e allineamento del testo
+. Modello a scatole
+
+.Abilità
+. Collegare un foglio di stile ad una pagina web
+. Modificare lo stile del testo
+. Modificare le scatole
+****
+
+.Linguaggio HTML e Document Object Model
+****
+.Conoscenza
+. Linguaggi basati su marcatori
+. Tag HTML, HEAD, BODY, TITLE, META, H1, …, H6, P, STRONG, EM, DIV, SPAN
+. Tag semantici: HEADER, NAV, SECTION, ARTICLE, FOOTER, ASIDE, SUMMARY, FIGURE, FIGCAPTION, TABLE,
+FORM.
+
+.Abilità
+. Riconoscere un linguaggio basato sui marcatori
+. Usare i tag HTML per creare un documento valido
+. Usare i tag semantici per strutturare il contenuto
+****
+
+.Modifica dinamica del DOM
+****
+.Conoscenza
+. Accesso ai nodi del DOM
+. Attraversamento del DOM
+. Aggiunta, modifica e cancellazione di nodi
+
+.Abilità
+. Ottenere un nodo per id e per tag
+. Muoversi tra nodi
+. Saper aggiungere, modificare e cancellare nodi
+****
+
+=== UFC2 - Programmazione del web
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Programmazione del web|Dicembre-Febbraio|2 /6
+|===
+
+.Il linguaggio JavaScript e il web browser
+****
+.Conoscenza
+. Valori, tipi, espressioni in JavaScript
+. Attraversamento del DOM in JavaScript
+. Modifica del DOM
+. Gestione degli eventi in JavaScript
+
+.Abilità
+. Dichiarare variabili, assegnare valori e riconoscere i tipi in JavaScript
+. Usare le primitive JavaScript per ricercare un elemento e per attraversare il DOM
+. Modificare i nodi per cambiare  contenuto e stile
+. Assegnare gestori di eventi ad elementi del DOM in JavaScript
+. Realizzazione di programmi numerici
+****
+
+=== UFC3 - Immagini e dei font tipografici
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Immagini e dei font tipografici|Febbraio-Marzo|1 /6
+|===
+
+.Font tipografici
+****
+.Conoscenza
+. Storia della tipografia
+. Font in formato bitmap
+. Font in formato vettoriale
+. Classificazione dei font per famiglie generiche e proprie, stile, dimensione, peso e variante
+. Uso convenzionale dei font nelle intestazioni e nei capoversi
+
+.Abilità
+. Saper confrontare i font bitmap e vettoriali
+. Saper scegliere il font adatto ad ogni parte di un testo
+****
+
+.Immagini raster
+****
+.Conoscenza
+. Bitmap monocromatica
+. Bitmap a scala di grigi
+. Bitmap a colori indicizzati
+. Bitmap a colori red-green-blue
+
+.Abilità
+. Saper rappresentare un'immagine su griglia
+****
+
+.Immagini vettoriali
+****
+.Conoscenza
+. Vettori geometrici
+. Rappresentazione delle curve
+. Primitive di disegno del formato Scalar Vector Graphics
+
+.Abilità
+. Saper disegnare semplici immagini mediante le primitive dello SVG
+****
+
+=== UFC4 - Paradigmi di programmazione
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Paradigmi di programmazione|Marzo-Giugno|2 /6
+|===
+
+.Linguaggi descrittivi di tipo funzionale e di tipo logico
+****
+.Conoscenza
+. Numeri naturali e operazioni elementari in un linguaggio basato sulla logica
+. Numeri naturali e operazioni elementari in un linguaggio puramente funzionale
+
+.Abilità
+. Riconscere la struttura di un programma basato sulla logica
+. Riconoscere di un programma realizzato con funzioni prive di effetti collaterali
+****
+
+.Paradigma di programmazione strutturata
+****
+.Conoscenza
+. Progettazione e realizzazione di algoritmi secondo il paradigma strutturato
+
+.Abilità
+. Saper realizzare algoritmi usando le funzioni e l'iterazione
+****
+
+.Paradigma di rogrammazione funzionale
+****
+.Conoscenza
+. Progettazione e realizzazione di algoritmi il paradigma funzionale
+
+.Abilità
+. Saper realizzare algoritmi mediante funzioni ricorsive
+****
+
+== Classe 4^a^ (QUARTA)
+
+=== UFC1 - Programmazione con linguaggi di alto livello
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Programmazione con linguaggi di alto livello|Settembre-Dicembre|2 /6
+|===
+
+.Sintassi di un linguaggio di programmazione orientato agli oggetti
+****
+.Conoscenza
+. Sintassi del linguaggio di programmazione
+
+.Abilità
+. Saper scrivere ed eseguire passo passo un programma
+****
+
+=== UFC2 - Problemi su grafi e combinatorici
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Problemi su grafi e combinatorici|Dicembre-Gennaio|1 /6
+|===
+
+.Alberi di copertura di costo minimo
+****
+.Conoscenza
+. Grafo indotto
+. Albero
+. Algoritmi di Prim e Kruskal
+
+.Abilità
+. Simulare gli algoritmi di Prim e Kruskal
+****
+
+.Albero dei cammini minimi
+****
+.Conoscenza
+. Algoritmo di Dijkstra
+
+.Abilità
+. Simulare l'algoritmo di Dijkstra
+****
+
+.Algoritmi di visita
+****
+.Conoscenza
+. Visita di grafo in profondità
+. Visita di un grafo in ampiezza
+
+.Abilità
+. Realizzare gli algoritmi di visita di un albero binario: preordine, postordine, simmetrico e a livelli
+****
+
+.Altri problemi combinatorici
+****
+.Conoscenza
+. Il problema dello zaino (formulazioni 0/1 e unbounded)
+. Il problema del commesso viaggiatore
+
+.Abilità
+. Comprendere l'importanza di tecniche di branch and bound, identificazione dei criteri di dominanza e riduzione della dimensione dell'istanza
+****
+
+.Problema del trasporto e dell'assegnamento
+****
+.Conoscenza
+. Metodo dell'angolo di Nord-Ovest
+. Il problema del trasporto e sua formulazione su rete
+. Il metodo ungherese
+. Il problema dell'assegnamento e sua formulazione su grafo bipartito completo
+. Metodo di Vogel
+. Metodo dei costi minimi
+
+.Abilità
+. Simulare il metodo ungherese
+. Simulare il metodo dei minimi costi
+. Simulare il metodo dell'angolo di Nord-Ovest
+****
+
+.Problemi di set covering e di set partitioning
+****
+.Conoscenza
+. Set covering e problemi di localizzazione
+. Set partitioning e problemi di schedulazione
+****
+
+.Rappresentazione dei grafi
+****
+.Conoscenza
+. Concetto di grafo e sua formalizzazione
+. Liste d'adiacenza e matrici d'incidenza
+****
+
+.Reti di flusso
+****
+.Conoscenza
+. Algoritmo di Ford-Fulkerson
+
+.Abilità
+. Simulare l'algoritmo di Ford-Fulkerson
+****
+
+=== UFC3 - Basi di dati relazionali
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Basi di dati relazionali|Febbraio-Marzo|2 /6
+|===
+
+.Analisi e progettazione di una base di dati
+****
+.Conoscenza
+. Diagrammi entità-relazioni
+
+.Abilità
+. Ristrutturare un diagramma entità-relazioni
+****
+
+.Architettura dei sistemi per la gestione delle basi di dati
+****
+.Conoscenza
+. Architettura dei DBMS
+
+.Abilità
+. Saper descrivere i vantaggi e gli svantaggi dell'uso di un DBMS
+. Saper descrivere i concetti di indipendenza fisica e logica nei DBMS
+****
+
+.Fondamenti teorici delle basi di dati relazionali
+****
+.Conoscenza
+. Algebra delle relazioni
+
+.Abilità
+. Saper effettuare  le operazioni di proiezione, restrizione, unione, intersezione, differenza, prodotto cartesiano, giunzione, ridenominazione
+****
+
+=== UFC4 - Structured Query Language
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Structured Query Language|Marzo-Giugno|1 /6
+|===
+
+.DDL, DML, DQL e DCL
+****
+.Conoscenza
+. Sintassi del linguaggio SQL per le operazioni di definizione dei dati
+. Sintassi del linguaggio SQL per le operazioni di inserimento, cancellazione e modifica dei dati
+. Sintassi del linguaggio SQL per le operazioni di interrogazione dei dati
+
+.Abilità
+. Saper creare e interrogare una base di dati relazione in linguaggio SQL
+****
+
+== Classe 5^a^ (QUINTA)
+
+=== UFC1 - Rappresentazione dei numeri sul calcolatore
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Rappresentazione dei numeri sul calcolatore|Settembre-Novembre|1 /6
+|===
+
+.Rappresentazione dei numeri interi in complemento a 2 alla n
+****
+.Conoscenza
+. Rappresentazione dei numeri interi in complemento a 2 alla n
+
+.Abilità
+. Convertire un numero intero decimale nella rappresentazione in complemento a 2 alla n
+. Convertire un numero in complemento a 2 alla n nella rappresentazione decimale
+****
+
+.Rappresentazioni posizionali dei numeri razionali in base 10, 2, 4, 6 e 16
+****
+.Conoscenza
+. Rappresentazione nelle basi 2 alla n, con n in { 1, 2, 3, 4 }
+
+.Abilità
+. Conversioni tra decimale e altra base
+. Conversioni tra basi 2, 4, 8 e 16
+****
+
+.Scrittura di un numero come segno, mantissa normalizzata ed esponente (segno e modulo)
+****
+.Conoscenza
+. Lo standard IEEE754 e gli errori di rappresentazione
+
+.Abilità
+. Saper rappresentare un numero in vigola secondo lo standard IEEE754
+. Comprendere gli errori di rappresentazione assoluti e relativi
+. Comprendere la propagazione degli errori nelle operazioni di somma e moltiplicazione
+****
+
+=== UFC2 - Funzioni di ordine superiore
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Funzioni di ordine superiore|Novembre-Dicembre|1 /6
+|===
+
+.Funzioni che hanno come argomento altre funzioni e che restituiscono valori numerici
+****
+.Abilità
+. Definire funzioni che hanno come argomento una funzione di variabile reale e un valore reale e che restituiscono un valore reale
+****
+
+.Funzioni che restituiscono funzioni
+****
+.Abilità
+. Definire funzioni che hanno come argomento una funzione di variabile reale e che restituiscono una funzione di variabile reale
+****
+
+.Funzioni di ordine superiore di uso generale
+****
+.Conoscenza
+. Apply, compose, filter, map, reduce.
+****
+
+=== UFC3 - Radici di una funzione di variabile reale
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Radici di una funzione di variabile reale|Dicembre-Gennaio|1 /6
+|===
+
+.Esistenza delle radici
+****
+.Conoscenza
+. Teorema di esistenza degli zeri
+
+.Abilità
+. Riconoscere l'esistenza di una radice di una funzione dato un intervallo
+****
+
+.Metodi che usano le derivate
+****
+.Conoscenza
+. Metodo delle tangenti (di Newton)
+
+.Abilità
+. Saper effettuare la ricerca numerica di una radice tramite il metodo delle tangenti (di Newton)
+
+. Realizzare in un linguaggio di programmazione e al foglio di calcolo il metodo delle tangenti (di Newton)
+****
+
+.Metodi diretti
+****
+.Conoscenza
+. Metodo di bisezione
+. Regola della falsa posizione (o di Fibonacci)
+. Metodo delle corde
+. Metodo delle secanti
+. Concetto di punto fisso e di iterazione del punto fisso
+
+.Abilità
+. Saper effettuare la ricerca numerica di una radice tramite il metodo di bisezione
+. Realizzare in un linguaggio di programmazione e al foglio di calcolo il metodo di bisezione
+****
+
+=== UFC4 - Derivazione numerica
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Derivazione numerica|Febbraio|1 /6
+|===
+
+.Derivazione come calcolo del rapporto incrementale
+****
+.Conoscenza
+. Errore nel calcolo dell'incremento e suo valore effettivo
+. Scelta dell'incremento per la minizzazione dell'errore di troncamento
+. Differenze simmetriche per la riduzione dell'errore
+
+.Abilità
+. Realizzare in un linguaggio di programmazione degli algoritmi di derivazione numerica
+****
+
+=== UFC5 - Ottimizzazione numerica 1-dimensionale
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|5|Ottimizzazione numerica 1-dimensionale|Febbraio-Marzo|1 /6
+|===
+
+.Definizioni, teorema di Weierstrass, convessità e condizioni analitiche del primo e del secondo ordine
+****
+.Conoscenza
+. Teorema di Weirstrass
+. Condizioni analitiche del primo ordine
+. Condizioni analitiche del secondo ordine
+. Convessità e derivate seconde
+
+.Abilità
+. Riconoscere l'esistenza di un massimo e di un minimo
+****
+
+.Metodi che richiedono l'uso delle derivate prima e seconda
+****
+.Conoscenza
+. Metodo di Newton per l'ottimizzazione
+
+.Abilità
+. Saper determinare il punto di minimo locale usando il metodo di Newton per l'ottimizzazione
+. Realizzare un un linguaggio di programmazione e al foglio di calcolo il metodo di Newton per l'ottimizzazione
+****
+
+.Metodi diretti per l'ottimizzazione
+****
+.Conoscenza
+. Metodo della sezione aurea
+.Abilità
+. Realizzare un un linguaggio di programmazione e al foglio di calcolo il metodo della sezione aurea
+. Saper determinare l'intervallo in cui si trova il punto di minimo locale di una funzione di variabile reale
+****
+
+=== UFC6 - Integrazione numerica
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|6|Integrazione numerica|Marzo-Giugno|1 /6
+|===
+
+.Formule di Newton-Cotes
+****
+.Conoscenza
+. Stima dell'errore
+. Regola del rettangolo
+. Regola del trapezio
+. Regola di Cavalieri-Simpson
+
+.Abilità
+. Saper effettuare il calcolo dell'integrale definito usando la regola del rettangolo
+. Saper effettuare il calcolo dell'integrale definito usando la regola del trapezio
+. Saper effettuare il calcolo dell'integrale definito usando la regola di Cavalieri-Simpson
+. Realizzare in un linguaggio di programmazione e al foglio di calcolo i metodi di quadratura
+****
