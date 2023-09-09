@@ -74,7 +74,7 @@ emergenza sanitaria, non è stato possibile condurre analisi
 sul raggiungimento degli obiettivi di competenza prefissati confrontandosi con altre
 classi parallele.
 
-In conclusione il curriculo qui proposto può essere utilizzato come un
+In conclusione il curricolo qui proposto può essere utilizzato come un
 catalogo di traguardi di apprendimento dal quale gli insegnanti possono attingere liberamente
 per la progettazione e la programmazione della didattica dell'informatica% che sia formativa e orientante
 del proprio istituto e può essere oggetto di ulteriore sperimentazione.
@@ -82,7 +82,7 @@ del proprio istituto e può essere oggetto di ulteriore sperimentazione.
 Lo sviluppo futuro auspicato è quello della produzione da parte della comunità degli insegnanti
 della scuola secondaria di materiali di studio in lingua italiana e di elevata qualità,
 auspicabilmente nella forma di Open Educational Resource (OER) e con revisione da parte accademica,
-che rendano agevole l'adozione di un tale curriculo.
+che rendano agevole l'adozione di un tale curricolo.
 \end{abstract}
 
 \setcounter{tocdepth}{2}
@@ -167,262 +167,17 @@ di produttori di hardware Open Source che propongono curricula completi.
 
 % ambienti didattici interattivi - Interactive learning environments
 
+Nel par.~\ref{sec:curricolo} si propone il curricolo organizzato per ciclo didattico.
 %Nel par.~\ref{sec:b1} si propongono alcune abilit\`a
 %pensate per il primo biennio, nel par.~\ref{sec:b2} quelle del secondo
 %biennio e quinto anno, mentre nel par.~\ref{sec:conclusioni}
 %si tirano le somme.
 
 %%% INIZIO CURRICOLO
+\section[Curricolo]{Curricolo}
+\label{sec:curricolo}
 
-\section{Primo biennio}
-\label{sec:b1}
-
-Si propongono alcune attività del primo biennio in sintonia con le indicazioni nazionali.
-
-\subsection[Scrittura tecnico-scientifica]{Scrittura tecnico-scientifica al calcolatore} 
-
-Per soddisfare il requisito per cui `lo studente conosce gli elementi costitutivi
-di un documento elettronico e i principali strumenti di produzione' e la
-pressante richiesta dei colleghi sull'uso di un sistema di videoscrittura\footnote{Per
-l'insegnate tipo il programma di videoscrittura è solo quella versione del noto produttore
-di sistemi operativi di cui egli ha ottenuto una qualche licenza}, si è proposta un'unità
-didattica di introduzione alla comunicazione tecnico/scientifica per il conseguimento
-delle seguenti abilità:
-
-\begin{enumerate}
-\item
-  Identificare gli attori e di una comunicazione
-\item
-  Distinguere tra dati, informazioni e conoscenza
-\item
-  Aggiungere l'autore e il titolo nel frontespizio di una relazione
-\item
-  Suddividere un testo nei suoi elementi strutturali ed aggiungere i
-  titoletti
-\item
-  Scrivere tabelle, immagini e altri contenuti flottanti con didascalie
-\item
-  Scrivere con elenchi ordinati, non ordinati e descrittivi
-\item
-  Enfatizzare il testo selezionando un carattere tipografico opportuno
-\end{enumerate}
-
-Si è scelto AsciiDoctor\cite{asciidoctor} con \LaTeX{} e \texttt{asciidoctor-diagram} come caso di studio.
-L'autore ha costruito un'applicazione web basata per
-la sperimentazione e la verifica automatica del livello di apprendimento.
-La didattica del linguaggio è stata condotta con esempi e generalizzazioni
-della sintassi tramite diagrammi rail-road.
-
-Come risultato qualche studente ha usato il sistema per produrre
-relazioni delle esperienze di fisica scritte e composte tipograficamente
-in modo impeccabile.
-
-\subsection[Dati e codifiche]{Dati e codifiche} 
-
-Per soddisfare il requisito sulla `\textellipsis una introduzione alla codifica binaria
-\textellipsis i codici ASCII e Unicode', si è focalizzato su:
-
-\begin{enumerate}
-  \item
-    Convertire un numero da base due a base dieci
-  \item
-    Convertire un numero da base dieci a base due
-  \item
-    Codificare un testo usando codifiche binarie dei caratteri
-  \item
-    Decodificare un testo codificato in binario
-  \item
-    Comprendere le esigenze che hanno condotto allo sviluppo dello
-    standard UNICODE
-  \item
-    Codificare un'immagine monocromatica mediante run-length encoding
-  \item
-    Decodificare un'immagine monocromatica codificata mediante run-length
-    encoding
-\end{enumerate}  
-
-Lo strumento didattico di riferimento è stato il testo
-`Computer Science Unplugged`~\cite{csu}.
-
-L'apprendimento delle codifiche è stato reso più attraente rispetto alle modalità
-didattiche classiche.
-
-\subsection[Problemi e algoritmi]{Problemi, modelli, soluzioni e algoritmi}
-
-Per introdurre gli studenti alla programmazione vengono prima presentati
-e formalizzati i problemi.
-Si sono scelte le seguenti abilità:
-
-\begin{enumerate}
-  \item
-    Saper formalizzare un problema di ricerca
-  \item
-    Simulare l'esecuzione dell'algoritmo di ricerca lineare
-  \item
-    Simulare l'esecuzione dell'algoritmo di ricerca binaria
-  \item
-    Saper formalizzare il concetto di ordinamento di una sequenza
-  \item
-    Simulare l'algoritmo di ordinamento per selezione, per inserimento e a bolle
-  \item
-    Calcolare il numero di confronti e di scambi degli algoritmi di
-    ordinamento basati su confronti e scambi
-  \item
-    Comprendere i criteri di scelta di un algoritmo rispetto ad altri
-  \item
-    Astrarre il modello di semplici problemi di natura quantitativa e
-    descrivere algoritmicamente il procedimento di soluzione
-  \item
-    Simulare l'esecuzione di un programma
-\end{enumerate}
-  
-Anche in questo caso si è fatto ricorso a `Computer Science Unplugged'.
-
-\subsection[Sistemi Operativi]{Interagire col sistema operativo tramite la shell}
-
-Per introdurre il sistema operativo si è scelto di saper interagire con il suo
-livello più esterno sviluppando le seguenti abilità:
-
-\begin{enumerate}
-  \def\labelenumi{\arabic{enumi}.}
-  \item
-    Creare, rinominare, spostare e cancellare un file
-  \item
-    Organizzare i file nelle directory
-  \item
-    Invocare un programma
-  \item
-    Elencare file e directory
-  \item
-    Creare una pipe anonima tra due o più utility
-  \item
-    Usare comandi per la data, l'estrazione della testa e della coda
-    di un file di testo, l'ordinamento delle linee, l'estrazione di campi
-\end{enumerate}
-
-Si è fatto ricorso ad una connessione `ssh` ad un server GNU/Linux.
-
-\section{Secondo biennio e quinto anno}
-
-\subsection[Web]{Documenti elettronici per il web}
-
-Nel secondo biennio si è cercato di sviluppare, gradualmente, l'astrazione
-e di introdurre vari paradigmi di programmazioni, tranne quello detto
-\textit{Banana Gorilla Jungle} perché con due ore a settimana bisogna
-fare delle scelte.
- 
-\subsection[Fogli elettronici]{Fogli elettronici}
-
-I fogli elettronici sono richiesti dai colleghi e si possono
-introdurre i concetti di reattività ma anche di funzione di
-ordine superiore in modo intuitivo. Si sono stabiliti i seguenti
-traguardi:
-
-\begin{enumerate}
-  \item
-    Usare le operazioni di filtraggio, riduzione e mappa nel foglio di
-    calcolo
-  \item
-    Usare il foglio di calcolo per modellizzare e risolvere le
-    problematiche d'interesse per il corso di studi
-  \item
-    Usare il risolutore per problemi di scelta
-  \item
-    Impostare problemi a variabili intere con il risolutore
-\end{enumerate}
-
-\subsection[Paradigmi]{Paradigmi di programmazione}
-
-Nell'incapacità dell'autore di decodificare le richieste
-di `implementazione di un linguaggio di programmazione,
-metodologie di programmazione, sintassi di un linguaggio
-orientato agli oggetti', si è scelto di presentare il paradigma
-della programmazione strutturata (con funzioni definite nell'ambito 
-di una funzione) in JavaScript, quello logico con esempi in Prolog,
-e quello funzionale in JavaScript, realizzando funzioni pure espresse
-senza l'uso dei costrutti \texttt{while}, \texttt{do-while} e texttt{for}.
-
-\begin{enumerate}
-  \item\
-    Saper realizzare algoritmi usando le funzioni e 
-    i costrutti di sequenza, selezione e iterazione (paradigma strutturato)
-  \item
-    Progettare semplici basi di fatti e regole con paradigma logico
-  \item
-    Saper realizzare semplici algoritmi mediante funzioni sintatticamente ricorsive
-\end{enumerate}
-
-\subsection[Grafi]{Problemi su grafi e combinatorici}
-
-\begin{enumerate}
-  \item Saper rappresentare un grafo
-  \item
-    Realizzare gli algoritmi di visita di un albero binario: preordine,
-    postordine, simmetrico % e a livelli
-  \item
-    Visitare un grafo in profondità
-  \item
-    Visitare un grafo in ampiezza
-  \item
-    Simulare l'algoritmo di Dijkstra
-  \item Rappresentare sul foglio di calcolo il problema dello zaino
-\end{enumerate}
-
-\subsection[Funzioni di ordine superiore]{Funzioni di ordine superiore}
-
-\begin{enumerate}
-  \item
-    Definire funzioni che hanno come argomento una funzione di variabile
-    reale e un valore reale e che restituiscono un valore reale
-  \item
-    Definire funzioni che hanno come argomento una funzione di variabile
-    reale e che restituiscono una funzione di variabile reale
-  \item
-    Descrivere gli algoritmi in termini di applicazione e composizione di funzioni
-  \item
-    Manipolare gli array usando le tecniche: filter, map, reduce.
-\end{enumerate}
-
-\subsection[Radici]{Radici di funzioni}
-
-\begin{enumerate}
-  \item Saper applicare il metodo di Erone di Alessandria per il calcolo delle radici quadrate
-  \item
-    Riconoscere l'esistenza di una radice di una funzione dato un intervallo
-  \item
-    Saper effettuare la ricerca numerica di una radice tramite il metodo
-    di bisezione
-  \item
-    Realizzare in un linguaggio di programmazione e al foglio di calcolo
-    il metodo di bisezione
-    \item
-    Saper effettuare la ricerca numerica di una radice tramite il metodo
-    delle tangenti (di Newton)
-  \item
-    Realizzare in un linguaggio di programmazione e al foglio di calcolo
-    il metodo delle tangenti (di Newton)
-  \item
-    Saper riconoscere l'equivalenza di due metodi iterativi
-\end{enumerate}
-
-\subsection[Ottimizzazione]{Ottimizzazione nel caso di una variabile reale}
-
-\begin{enumerate}
-  \item
-  Riconoscere l'esistenza di un massimo e di un minimo
-  \item
-    Metodo di Newton per l'ottimizzazione
-  \item
-    Approssimare il punto di minimo locale usando il metodo di Newton
-  per l'ottimizzazione
-  \item
-    Realizzare un un linguaggio di programmazione e al foglio di calcolo
-  il metodo di Newton per l'ottimizzazione
-  \item
-    Realizzare un un linguaggio di programmazione e al foglio di calcolo
-  il metodo della sezione aurea
-\end{enumerate}
-
+\input{ls_curricolo.tex}
 %%% FINE CURRICOLO
 
 \section{Sperimentazione}
@@ -442,36 +197,33 @@ classi parallele che si è avuta anche per l'assenza di didattica.
 
 L'esperienza si è conclusa per l'esigenza di uniformare l'offerta didattica tra classi parallele,
 per la difficoltà di reperire validi supporti didattici e per la scarsità del tempo che l'autore
-ha trovato per la produzione del materiale didattico.
+ha trovato per la produzione o la traduzione del materiale didattico.
 
 \section{Conclusioni}
 
-In conclusione si considera il curriculo qui proposto come una
-bozza per la progettazione e la programmazione della didattica dell'informatica % che sia formativa e orientante
+In conclusione si considera il curricolo qui proposto come
+una proposta coerente con i traguardi di competenze fissate dal  
+Ministero dell'Istruzione e del Merito che include alcuni elementi
+di dettagli della programmazione didattica
+orientati alla disciplina scientifica piuttosto che all'uso delle applicazioni.
+Tale curricolo può essere una bozza per la progettazione e la programmazione
+della didattica dell'informatica % che sia formativa e orientante
 alla quale gli insegnati liceali possono attingere per la costruzione del percorso
 del proprio istituto.
 
-Non si possono fornire indicazioni sull'efficacia della proposta a causa della mancanza di uno studio
-comparativo.
+% Non si possono fornire indicazioni sull'efficacia della proposta a causa della mancanza di uno studio comparativo.
+Il curricolo presenta alcune difficoltà di realizzazione in particolare per
+la mancanza di materiali di studio, auspicabilmente nella forma di Open Educational Resource (OER),
+in lingua italiana e di qualità elevata.
 
-Si rileva la mancanza di materiali di studio, auspicabilmente nella forma di Open Educational Resource (OER),
-in lingua italiana e di qualità elevata, che sono supporti indispensabili per gli studenti.
+%L'esperienza è però difficile da riprodurre e richiede la produzione di tanto materiale
+%didattico da fornire agli studenti.
 
-
-Il percorso proposto mira al conseguimento degli obiettivi proposti dal Ministero
-dell'Istruzione e del Merito e, a giudizio dell'autore, forma degli studenti
-maggiormente consapevoli e capaci di orientarsi meglio nelle scelte universitarie.
-
-Le tematiche proposte si sono dimostrate stimolanti sia per gli studenti che per
-l'insegnante.
-
-L'esperienza è però difficile da riprodurre e richiede la produzione di tanto materiale
-didattico da fornire agli studenti.
-
-Per poter osare con una didattica di questo tipo occorre arricchire di OER i progetti
-esistenti, come quello del Politecnico di Torino~\cite{fare}, di tradurre in modo
-professionale i migliori progetti didattici già attuati all'estero, di creare
-comunità di insegnanti di informatica.
+Questa difficoltà è superabile se gli insegnanti partecipano a comunità professionali
+che arricchiscano di OER i progetti esistenti, come quello del Politecnico di Torino~\cite{fare}.
+Oltre agli OER servono libri di testo e piattaforme didattiche.
+Testi e piattaforme ci sono sono già ma occorre un impegno della comunità nella traduzione
+professionale dei migliori progetti didattici già attuati all'estero.
 
 \label{sect:bib}
 %\addcontentsline{toc}{section}{\refname}
