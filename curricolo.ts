@@ -180,22 +180,33 @@ e quello funzionale in JavaScript, realizzando funzioni pure di ordine superiore
         ],
       },
       {
-        argomento: "Documenti elettronici per il web",
-        arg_breve: "Web",
+        argomento: "Applicazioni web",
+        arg_breve: "Web app",
         area_tematica: "Algoritmi e linguaggi di programmazione (AL)",
         rationale: ``,
         risultati: ``,
         strumenti: ``,
-        abilita: ["", "", "", "", ""],
+        abilita: [
+          "Saper scrivere semplici script interpretabili dal web browser",
+          "Saper usare le API di accesso all'albero sintattico di una pagina HTML",
+          "Strutturare i dati per permettere la costruzione programmatica di una pagina HTML",
+          "Realizzare una semplice web app interattiva",
+        ],
       },
       {
-        argomento: "",
-        arg_breve: "",
-        area_tematica: "Architettura dei computer (AC)",
+        argomento: "Problemi su grafi e combinatorici",
+        arg_breve: "Grafi",
+        area_tematica: "Algoritmi e linguaggi di programmazione (AL)",
         rationale: ``,
         risultati: ``,
         strumenti: ``,
-        abilita: ["", "", "", "", ""],
+        abilita: [
+          "Saper rappresentare un grafo",
+          "Realizzare gli algoritmi di visita di un albero binario: preordine, postordine, simmetrico% e a livelli",
+          "Visitare un grafo in profondità e in ampiezza",
+          "Simulare l'algoritmo di Dijkstra",
+          "Rappresentare sul foglio di calcolo il problema dello zaino",
+        ],
       },
     ],
   },
@@ -203,22 +214,32 @@ e quello funzionale in JavaScript, realizzando funzioni pure di ordine superiore
     periodo: "Quinto anno",
     argomenti: [
       {
-        argomento: "",
-        arg_breve: "",
+        argomento: "Reti di calcolatori",
+        arg_breve: "Reti",
         area_tematica: "Reti di computer (RC)",
         rationale: ``,
         risultati: ``,
         strumenti: ``,
-        abilita: ["", "", "", "", ""],
+        abilita: [
+          "Descrivere i componenti hardware e software che costituiscono una rete dati",
+          "Descrivere le applicazioni di rete quali quelle del www e della posta elettronica",
+          "Descrivere i livelli di rete del modello ISO/OSI",
+          "Riconoscere vantaggi e svantaggi di alcune topologie di rete",
+        ],
       },
       {
-        argomento: "",
-        arg_breve: "",
+        argomento: "Internet e servizi",
+        arg_breve: "Internet",
         area_tematica: "Struttura di Internet e servizi (IS)",
         rationale: ``,
         risultati: ``,
         strumenti: ``,
-        abilita: ["", "", "", "", ""],
+        abilita: [
+          "Descrivere i servizi di rete con particolare riferimento al www",
+          "Descrivere gli strati del modello TCP/IP",
+          "Comprendere i principali rischi di sicurezza nelle comunicazioni digitali",
+          "Valutare l'uso di tecniche per raggiungere determinati livelli di riservatezza, integrità e disponibilità dei dati",
+        ],
       },
       {
         argomento: "Funzioni di ordine superiore",
@@ -297,70 +318,3 @@ context.forEach((ciclo: Ciclo) => {
 });
 
 console.log(tex);
-/*
-\subsection[Web]{Documenti elettronici per il web}
-
-Nel secondo biennio si è cercato di sviluppare, gradualmente, l'astrazione
-e di introdurre vari paradigmi di programmazioni, tranne quello detto
-\textit{Banana Gorilla Jungle} perché con due ore a settimana bisogna
-fare delle scelte.
- 
-\subsection[Fogli elettronici]{Fogli elettronici}
-
-I fogli elettronici sono richiesti dai colleghi e si possono
-introdurre i concetti di reattività ma anche di funzione di
-ordine superiore in modo intuitivo. Si sono stabiliti i seguenti
-traguardi:
-
-\subsection[Paradigmi]{Paradigmi di programmazione}
-
-Nell'incapacità dell'autore di decodificare le richieste
-di `implementazione di un linguaggio di programmazione,
-metodologie di programmazione, sintassi di un linguaggio
-orientato agli oggetti', si è scelto di presentare il paradigma
-della programmazione strutturata (con funzioni definite nell'ambito 
-di una funzione) in JavaScript, quello logico con esempi in Prolog,
-e quello funzionale in JavaScript, realizzando funzioni pure espresse
-senza l'uso dei costrutti \texttt{while}, \texttt{do-while} e texttt{for}.
-
-"Saper realizzare algoritmi usando le funzioni e  i costrutti di sequenza, selezione e iterazione (paradigma strutturato)",
-"Progettare semplici basi di fatti e regole con paradigma logico",
-"Saper realizzare semplici algoritmi mediante funzioni sintatticamente ricorsive"
-
-\subsection[Grafi]{Problemi su grafi e combinatorici}
-
-\begin{enumerate}
-  \item Saper rappresentare un grafo
-  \item
-    Realizzare gli algoritmi di visita di un albero binario: preordine,
-    postordine, simmetrico % e a livelli
-  \item
-    Visitare un grafo in profondità
-  \item
-    Visitare un grafo in ampiezza
-  \item
-    Simulare l'algoritmo di Dijkstra
-  \item Rappresentare sul foglio di calcolo il problema dello zaino
-\end{enumerate}
-
-
-
-\end{enumerate}"
-
-
-{
-        argomento: "",
-        arg_breve: "",
-        area_tematica: "Architettura dei computer (AC)",
-        rationale: ``,
-        risultati: ``,
-        strumenti: ``,
-        abilita: [
-          "",
-          "",
-          "",
-          "",
-          "",
-        ],
-      },
-*/
