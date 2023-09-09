@@ -1,0 +1,272 @@
+== Classe 4^a^ (QUARTA)
+
+=== UFC1 - Problemi su grafi e combinatorici
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Problemi su grafi e combinatorici|Settembre-Novembre|1 /6
+|===
+
+.Grafo
+****
+.Conoscenza
+. Concetto di grafo
+. Terminologia di base
+. Rappesentazioni al calcolatore
+
+.Abilità
+. Modellizzare un problema reale con un grafo
+****
+
+.Algoritmi di visita
+****
+.Conoscenza
+. Visita di grafo in profondità
+. Visita di un grafo in ampiezza
+
+.Abilità
+. Realizzare gli algoritmi di visita di un albero binario
+. Determinare la componente connessa con un nodo dato
+****
+
+.Alberi di connessione minimi
+****
+.Conoscenza
+. Grafo indotto
+. Albero
+. Algoritmi di Prim e Kruskal
+
+.Abilità
+. Simulare gli algoritmi di Prim e Kruskal
+****
+
+.Albero dei cammini minimi
+****
+.Conoscenza
+. Algoritmo di Dijkstra
+
+.Abilità
+. Simulare l'algoritmo di Dijkstra
+****
+
+.Problema del trasporto e dell'assegnamento
+****
+.Conoscenza
+. Il problema del trasporto e sua formulazione su rete
+. Metodo dell'angolo di Nord-Ovest
+. Metodo di Vogel
+. Metodo dei costi minimi
+. Il problema dell'assegnamento e sua formulazione su grafo bipartito completo
+. Metodo ungherese
+
+.Abilità
+. Simulare il metodo dei minimi costi
+. Simulare il metodo dell'angolo di Nord-Ovest
+. Simulare il metodo ungherese
+****
+
+.Altri problemi combinatorici
+****
+.Conoscenza
+. Il problema dello zaino (formulazioni 0/1 e unbounded)
+. Il problema del commesso viaggiatore
+
+.Abilità
+. Comprendere l'importanza di tecniche di branch and bound, identificazione dei criteri di dominanza e riduzione della dimensione dell'istanza
+****
+
+.Linguaggi di programmazione per vincoli
+****
+.Conoscenza
+. Sintassi di base di MiniZinc
+
+.Abilità
+. Descrivere un semplice problema di ammissibilità
+. Descrivere un semplice problema di ottimizzazione
+****
+
+=== UFC2 - Rappresentazione dei numeri sul calcolatore
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Rappresentazione dei numeri sul calcolatore|Dicembre-Gennaio|1 /6
+|===
+
+.Rappresentazioni posizionali dei numeri razionali in base 10, 2, 4, 6 e 16
+****
+.Conoscenza
+. Rappresentazione nelle basi 2 alla n, con n in { 1, 2, 3, 4 }
+
+.Abilità
+. Conversioni tra decimale e altra base
+. Conversioni tra basi 2, 4, 8 e 16
+****
+
+.Rappresentazione dei numeri interi in complemento a 2 alla n
+****
+.Conoscenza
+. Rappresentazione dei numeri interi in complemento a 2 alla n
+
+.Abilità
+. Convertire un numero intero decimale nella rappresentazione in complemento a 2 alla n
+. Convertire un numero in complemento a 2 alla n nella rappresentazione decimale
+****
+
+.Scrittura di un numero come segno, mantissa normalizzata ed esponente (segno e modulo)
+****
+.Conoscenza
+. Lo standard IEEE754 e gli errori di rappresentazione
+
+.Abilità
+. Saper rappresentare un numero in vigola secondo lo standard IEEE754
+. Comprendere gli errori di rappresentazione assoluti e relativi
+. Comprendere la propagazione degli errori nelle operazioni di somma e moltiplicazione
+****
+
+=== UFC3 - Funzioni di ordine superiore
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Funzioni di ordine superiore|Gennaio-Febbraio|1 /6
+|===
+
+.Funzioni che hanno come argomento altre funzioni e che restituiscono valori numerici
+****
+.Abilità
+. Definire funzioni che hanno come argomento una funzione di variabile reale e un valore reale e che restituiscono un valore reale
+****
+
+.Funzioni che restituiscono funzioni
+****
+.Abilità
+. Definire funzioni che hanno come argomento una funzione di variabile reale e che restituiscono una funzione di variabile reale
+****
+
+.Funzioni di ordine superiore di uso generale
+****
+.Conoscenza
+. Apply, compose, filter, map, reduce.
+
+.Abilità
+. Descrivere sommatorie, produttorie ed altri operatori matematici mediante funzioni di ordine superiore
+****
+
+=== UFC4 - Radici di una funzione di variabile reale
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Radici di una funzione di variabile reale|Marzo-Aprile|1 /6
+|===
+
+.Esistenza delle radici
+****
+.Conoscenza
+. Teorema di esistenza degli zeri
+
+.Abilità
+. Riconoscere l'esistenza di una radice di una funzione dato un intervallo
+****
+
+.Metodi diretti
+****
+.Conoscenza
+. Metodo di bisezione
+. Metodo delle secanti
+. Metodo delle corde
+. Regola della falsa posizione (o di Fibonacci)
+
+.Abilità
+. Saper effettuare la ricerca numerica di una radice tramite il metodo di bisezione
+. Realizzare in un linguaggio di programmazione e al foglio di calcolo il metodo di bisezione
+****
+
+.Derivazione numerica come calcolo del rapporto incrementale
+****
+.Conoscenza
+. Errore nel calcolo dell'incremento e suo valore effettivo
+. Scelta dell'incremento per la minizzazione dell'errore di troncamento
+. Differenze simmetriche per la riduzione dell'errore
+
+.Abilità
+. Realizzare in un linguaggio di programmazione degli algoritmi di derivazione numerica
+****
+
+.Metodi che usano le derivate
+****
+.Conoscenza
+. Concetto di punto fisso e di iterazione del punto fisso
+. Metodo delle tangenti (di Newton)
+
+.Abilità
+. Saper effettuare la ricerca numerica di una radice tramite il metodo delle tangenti (di Newton)
+. Realizzare in un linguaggio di programmazione e al foglio di calcolo il metodo delle tangenti (di Newton)
+****
+
+
+=== UFC5 - Ottimizzazione numerica 1-dimensionale
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|5|Ottimizzazione numerica 1-dimensionale|Aprile-Maggio|1 /6
+|===
+
+.Definizioni, teorema di Weierstrass, convessità e condizioni analitiche del primo e del secondo ordine
+****
+.Conoscenza
+. Teorema di Weirstrass
+. Condizioni analitiche del primo ordine
+. Condizioni analitiche del secondo ordine
+. Convessità e derivate seconde
+
+.Abilità
+. Riconoscere l'esistenza di un massimo e di un minimo
+****
+
+.Metodi diretti per l'ottimizzazione
+****
+.Conoscenza
+. Metodo della sezione aurea
+
+.Abilità
+. Realizzare un un linguaggio di programmazione e al foglio di calcolo il metodo della sezione aurea
+. Saper determinare l'intervallo in cui si trova il punto di minimo locale di una funzione di variabile reale
+****
+
+.Metodi che richiedono l'uso delle derivate prima e seconda
+****
+.Conoscenza
+. Metodo di Newton per l'ottimizzazione
+
+.Abilità
+. Saper determinare il punto di minimo locale usando il metodo di Newton per l'ottimizzazione
+. Realizzare un un linguaggio di programmazione e al foglio di calcolo il metodo di Newton per l'ottimizzazione
+****
+
+=== UFC6 - Integrazione numerica
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|6|Integrazione numerica|Maggio-Giugno|1 /6
+|===
+
+
+.Formule di Newton-Cotes
+****
+.Conoscenza
+. Stima dell'errore
+. Regola del rettangolo
+. Regola del trapezio
+. Regola di Cavalieri-Simpson
+
+.Abilità
+. Saper effettuare il calcolo dell'integrale definito usando la regola del rettangolo
+. Saper effettuare il calcolo dell'integrale definito usando la regola del trapezio
+. Saper effettuare il calcolo dell'integrale definito usando la regola di Cavalieri-Simpson
+. Realizzare in un linguaggio di programmazione e al foglio di calcolo i metodi di quadratura
+****

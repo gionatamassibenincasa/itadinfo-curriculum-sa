@@ -1,0 +1,9 @@
+﻿= Programmazione d'Informatica - Liceo Scientifico opzione scienze applicate - Quadriennale
+Gionata Massi <gionata.massi@savoiabenincasa.it>
+Settembre 2017, A.S. 2017/2018
+:table-caption!:
+
+include::ls4_c1.adoc[]
+include::ls4_c2.adoc[]
+include::ls4_c3.adoc[]
+include::ls4_c4.adoc[]

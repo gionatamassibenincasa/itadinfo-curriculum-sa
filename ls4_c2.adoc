@@ -1,0 +1,203 @@
+== Classe 2^a^ (SECONDA)
+
+=== UFC1 - Struttura di internet e servizi
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Struttura di internet e servizi|Settembre-Novembre|1 /6
+|===
+
+.I servizi di Internet
+****
+.Conoscenza
+. Il web il protocollo HTTP
+. La posta elettronica e i protocolli SMTP e POP
+
+.Abilità
+. Usare un browser per visualizzare il traffico di rete
+****
+
+.Le reti di computer
+****
+.Conoscenza
+. Protocolli di comunicazione
+. Indirizzi IP e numeri di porta
+
+.Abilità
+. Saper valutare l'opportunità d'impiego di un protocollo di trasporto con o senza stato per un dato servizio
+****
+
+=== UFC2 - Documenti elettronici per il web
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Documenti elettronici per il web|Novembre-Gennaio|2 /6
+|===
+
+.Contenuti, presentazione e comportamento di una pagina web
+****
+.Conoscenza
+. Descrizione del contenuto tramite marcatori
+. Descrizione dell'aspetto tramite fogli di stile
+. Descrizione del comportamento tramite linguaggi specifici
+
+.Abilità
+. Riconoscere le finalità e i limiti dei linguaggi per il web
+****
+
+.Linguaggio HTML
+****
+.Conoscenza
+. Linguaggi basati su marcatori
+. Tag HTML, HEAD, BODY, TITLE, META, H1, …, H6, P, STRONG, EM, DIV, SPAN
+. Tag semantici: HEADER, NAV, SECTION, ARTICLE, FOOTER, ASIDE, SUMMARY, FIGURE, FIGCAPTION, TABLE, FORM.
+
+.Abilità
+. Riconoscere un linguaggio basato sui marcatori
+. Usare i tag HTML per creare un documento valido
+. Usare i tag semantici per strutturare il contenuto
+. Saper realizzare un semplice sito web statico curando solo il contenuto
+****
+
+.Cascade Style Sheet
+****
+.Conoscenza
+. Fogli di stile
+. Regole e selettori
+. Font tipografici e allineamento del testo
+. Modello a scatole
+
+.Abilità
+. Collegare un foglio di stile ad una pagina web
+. Modificare lo stile del testo
+. Modificare le scatole
+. Saper realizzare un semplice sito web statico curando anche la presentazione
+****
+
+.Modello a oggetti del documento e scripting
+****
+.Conoscenza
+. Albero DOM
+. Accesso ai nodi e impostazioni delle proprietà
+
+.Abilità
+. Navigare il DOM e modificarne i nodi
+****
+
+.Uso degli strumenti per gli sviluppatori
+****
+.Conoscenza
+. Gli strumenti per lo sviluppatore del web browser
+
+.Abilità
+. Usare il debugger, la visualizzazione degli elementi del DOM e la console JavaScript
+****
+
+=== UFC3 - Sintassi e semantica di un linguaggio di programmazione
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Sintassi e semantica di un linguaggio di programmazione|Febbraio-Aprile|2 /6
+|===
+
+.Analisi lessicale e sintattica
+****
+.Conoscenza
+. Valori, tipi e espressioni
+. Analisi lessicale di un linguaggio formalizzato e sintassi di un linguaggio
+. Analisi sintattica di un linguaggio formalizzato e semantica di un programma
+
+.Abilità
+. Verificare che un programma sia sintatticamente corretto
+. Riconoscere un albero sintattico
+****
+
+.Espressioni, nomi e operatori
+****
+.Conoscenza
+. Concetto di espressione
+. Nomi per riferirsi a valori
+. Nomi per riferirsi a procedure
+. Composizione di valori tramite operatori
+. Funzioni
+
+.Abilità
+. Scrivere espressioni composte
+. Dichiarare variabili e assegnargli un valore costante
+. Dichiarare funzioni non primitive per il linguaggio
+****
+
+.Definizione delle operazioni aritmetiche nell'insieme dei numeri naturali usando tre funzioni primitive
+****
+.Conoscenza
+. Definire la somma ricorsivamente
+. Definire la differenza ricorsivamente
+. Definire la moltiplicazione ricorsivamente
+. Definire la divisione ricorsivamente
+. Definire l'elevamento a potenza ricorsivamente
+
+.Abilità
+. Saper definire ricorsivamente le operazioni elementari
+****
+
+.Dichiarazioni ricorsive e processi iterativi e ricorsivi
+****
+.Conoscenza
+. Definizione ricorsiva di una sequenza
+. Definizione ricorsiva delle funzioni fattoriale e generatrice della successione di Fibonacci
+. Processo ricorsivo e processo iterativo
+
+.Abilità
+. Comprendere la definizione di un insieme data per induzione
+. Saper riscrivere le funzioni fattoriale e di Fibonacci per calcolarne il valore
+. Esprimere ricorvamente la lunghezza di una sequenza
+. Esprimere ricorsivamente la proprietà di ordinamento di una sequenza
+. Determinare se il processo indotto dall'espressione è iterativo o ricorsivo
+****
+
+.Logica proposizionale
+****
+.Conoscenza
+. Connettivi logici e tabelle di verità
+
+.Abilità
+. Saper usare i connettivi logici nella descrizione di un processo di calcolo
+****
+
+.Sequenza, selezione e iterazione
+****
+.Conoscenza
+. Flusso di esecuzione di istruzioni in sequenza
+. Ramificazione del flusso di esecuzione
+. Iterazione di un blocco d'istruzioni
+
+.Abilità
+. Usare i costrutti di sequenza, selezione e iterazione in JavaScript
+****
+
+=== UFC4 - Fogli elettronici
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Fogli elettronici|Aprile-Giugno|1 /6
+|===
+
+.Terminologia dei fogli di calcolo
+****
+.Conoscenza
+. Righe, colonne, celle del foglio di calcolo
+. Operazioni di filtraggio, riduzione e mappa nel foglio di calcolo
+
+.Abilità
+. Usare le operazioni di filtraggio, riduzione e mappa nel foglio di calcolo
+****
+
+.Uso del foglio di calcolo
+****
+.Abilità
+. Usare il foglio di calcolo per modellizzare e risolvere le problematiche d'interesse per il corso di studi
+****

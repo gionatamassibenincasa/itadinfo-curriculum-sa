@@ -1,0 +1,247 @@
+== Classe 1^a^ (PRIMA)
+
+=== UFC0 - Uso delle tecnologie dell'informazione e della comunicazione per l'apprendimento
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|0|Uso delle tecnologie dell'informazione e della comunicazione per l'apprendimento|Settembre|0 /6
+|===
+
+.Registrazione dei proprio dispositivo alla rete WiFi
+****
+.Abilità
+. Identificare l'indirizzo MAC della scheda di rete
+****
+
+.Uso efficace della piattaforma "G-Suite per la scuola"
+****
+.Conoscenza
+. La comunicazione tramite posta elettronica e l'applicazione Gmail
+. L'archiviazione dei contenuti e l'applicazione Drive
+. La ricerca dei contenuti
+
+.Abilità
+. Aprire la web-mail e riconoscere i messaggi letti e non. Riconoscere il mittente, l'oggetto e il corpo del messaggio di
+posta. Ricercare i messaggi
+. Inviare una mail ad uno o più destinatari
+. Trovare le circolari che ci interessano
+. Scrivere un documento con Google Documenti
+. Ricercare un contenuto in base a parole chiave, tipo di file, propietario, data di modifica
+****
+
+=== UFC1 - Scrittura tecnico-scientifica
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Scrittura tecnico-scientifica|Ottobre-Novembre|1 /6
+|===
+
+.Introduzione alla comunicazione
+****
+.Conoscenza
+. I concetti di messaggio, mittente, destinatario, canale, codifica di sorgente, codifica di canale
+. I dati, le informazioni e la conoscenza
+
+.Abilità
+. Identificare gli attori di una comunicazione
+. Distinguere tra dati, informazioni e conoscenza
+****
+
+.Presentazione orale di un lavoro tecnico-scientifico
+****
+.Conoscenza
+. Presentazioni orali e lucidi
+
+.Abilità
+. Scrivere i lucidi per una presentazione da proiettare
+****
+
+.Redazione di una relazione tecnico-scientifica
+****
+.Conoscenza
+. Struttura di una relazione: parte, capitolo, paragrafo, sotto-paragrafo, capoverso
+. Autore, titolo, e metadati del frontespizio e del retrofrontespizio
+. Elenchi ordinati, non ordinati e descrittivi
+. Figure, tabelle, equazioni ed algoritmi
+. I caratteri tipografici: tondo, lineare, corsivo, corsivo, tondo inclinato, maiuscoletto, neretto, a spaziatura fissa
+
+.Abilità
+. Aggiungere l'autore e il titolo nel frontespizio di una relazione
+. Suddividere un testo nei suoi elementi strutturali ed aggiungere i titoletti
+. Scrivere tabelle, immagini e altri contenuti flottanti con didascalie
+. Scrivere con elenchi ordinati, non ordinati e descrittivi
+. Enfatizzare il testo selezionando un  carattere tipografico opportuno
+****
+
+=== UFC2 - Architettura dei calcolatori elettronici digitali
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Architettura dei calcolatori elettronici digitali|Novembre-Dicembre|1 /6
+|===
+
+.Concetti di hardware e di software
+****
+.Conoscenza
+. Hardware e software
+. Licenze d'uso e classificazione in software proprietario e software libero
+. Classificazione del software per scopo
+
+.Abilità
+. Distinguere tra hardware e software
+. Distinguere tra software commerciale e software libero
+. Classificare i software di sistema, di utilità, per l'ufficio e per il calcolo
+****
+
+.Elementi funzionali della macchina di Von Newmann
+****
+.Conoscenza
+. CPU, memoria e bus
+. Memorie di massa
+. Periferiche d'ingresso e d'uscita
+
+.Abilità
+. Utilizzare in modo appropriato la terminologia tecnica
+. Confrontare le prestazioni dello hardware in base ai loro parametri caratteristici
+****
+
+=== UFC3 - Dati e codifiche
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Dati e codifiche|Dicembre-Gennaio|1 /6
+|===
+
+.Caratteri e codici ASCII e UNICODE
+****
+.Conoscenza
+. Rappresentazione dei caratteri con 5 bit
+. Standard ASCII a 7 bit
+. Standard UNICODE
+
+.Abilità
+. Codificare un testo usando codifiche binarie dei caratteri
+. Decodificare un testo codificato in binario
+. Comprendere le esigenze che hanno condotto allo sviluppo dello standard UNICODE
+****
+
+.Immagini monocromatiche e codifica della lunghezza delle sequenze
+****
+.Conoscenza
+. Rappresentazione di un'immagine monocromatica
+. Codifica dell'immagine mediante lunghezza delle sequenze
+
+.Abilità
+. Codificare un'immagine monocromatica mediante run-length encoding
+. Decodificare un'immagine monocromatica codificata mediante run-length encoding
+****
+
+.Numeri naturali e rappresentazioni posizionali
+****
+.Conoscenza
+. Codifica in base due dei numeri naturali
+
+.Abilità
+. Convertire un numero da base due a base dieci
+. Convertire un numero da base dieci a base due
+****
+
+=== UFC4 - Problemi, modelli, istanze e soluzioni
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Problemi, modelli, istanze e soluzioni|Febbraio-Aprile|2 /6
+|===
+
+.Il problema della ricerca
+****
+.Conoscenza
+. Formalizzazione del problema di ricerca e ipotesi sui dati
+. Algoritmo di ricerca lineare (o sequenziale o scansione)
+. Algoritmo di ricerca binaria (o dicotomica)
+. Tecniche con indicizzazione e ricerca tramite tavole hash
+
+.Abilità
+. Saper formalizzaare un problema di ricerca
+. Simulare l'esecuzione dell'algoritmo di ricerca lineare
+. Simulare l'esecuzione dell'algoritmo di ricerca binaria
+. Valutare l'applicabilità delle diverse tecniche di ricerca
+. Valutare le prestazioni delle diverse tecniche di ricerca
+****
+
+.Il problema dell'ordinamento
+****
+.Conoscenza
+. Formalizzazione del problema dell'ordinamento e ipotesi sui dati
+. Algoritmo di ordinamento per selezione (selection sort)
+. Algoritmo di ordinamento per inserimento (insertion sort)
+. Algorimo di ordinamento a bolle (bubble sort)
+. Cenni sugli algoritmi di ordinamento per fusione (merge sort) e veloce (quicksort)
+. Cenni sugli algoritmi di ordinamento parallelo mediante esemplificazione di una rete di Batcher
+
+.Abilità
+. Saper formalizzare il concetto di ordinamento di una sequenza
+. Simulare l'algoritmo di ordinamento per selezione applicato ad una sequenza numerica
+. Simulare l'algoritmo di ordinamento per inserimento applicato ad una sequenza numerica
+. Simulare l'algoritmo di ordinamento a bolle applicato ad una sequenza numerica
+. Calcolare il numero di confronti e di scambi degli algoritmi di ordinamento basati su confronti e scambi
+. Comprendere i criteri di scelta di un algoritmo rispetto ad altri
+****
+
+.Problema e modello, istanza e soluzione
+****
+.Conoscenza
+. Concetto di problema, modello, istanza, soluzione, codifica e decodifica
+
+.Abilità
+. Astrarre il modello di semplici problemi di natura quantitativa e descrivere algoritmicamente il procedimento di soluzione
+****
+
+=== UFC5 - Sistemi operativi
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|5|Sistemi operativi|Aprile-Giugno|1 /6
+|===
+
+.File-system e organizzazione logico/gerarchica degli archivi
+****
+.Conoscenza
+. Organizzazione logica in file e gerachia delle directory
+
+.Abilità
+. Creare, rinominare, spostare e cancellare un file
+. Organizzare i file nelle directory
+****
+
+.L'interprete dei comandi
+****
+.Conoscenza
+. Invocare un programma
+. Elencare file e directory
+. Comandi di utilità
+. Comunicazione tra processi locali tramite pipe anonime
+
+.Abilità
+
+. Invocare un programma
+. Elencare file e directory
+. Creare una pipe anonima tra due o più utility
+. Usare i comandi per la data, l'elenco dei file e delle directory, l'estrazione della testa e della coda di un file di testo, l'odinamento delle linee, l'estrazione di campi
+****
+
+.Programmi e processi
+****
+.Conoscenza
+. Concetto di file sorgente, codice macchina e programma eseguibile
+. Processo come immagine di programma in esecuzione
+
+.Abilità
+. Simulare l'esecuzione di un programma
+****

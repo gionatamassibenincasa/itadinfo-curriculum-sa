@@ -1,0 +1,146 @@
+== Classe 3^a^ (TERZA)
+
+=== UFC1 - Programmazione del Web
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|1|Linguaggi di markup|Settembre-Ottobre|1 /6
+|===
+
+.Modifica dinamica del DOM
+****
+.Conoscenza
+. Accesso ai nodi del DOM
+. Attraversamento del DOM
+. Aggiunta, modifica e cancellazione di nodi
+. Gestione degli eventi in JavaScript
+
+.Abilità
+. Ottenere un nodo per id e per tag
+. Muoversi tra nodi
+. Saper aggiungere, modificare e cancellare nodi
+. Saper aggiungere un comportamento dinamico ad un semplice sito web
+****
+
+=== UFC2 - Immagini e dei font tipografici
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|2|Immagini e dei font tipografici|Novembre-Dicembre|1 /6
+|===
+
+.Immagini raster
+****
+.Conoscenza
+. Bitmap monocromatica
+. Bitmap a scala di grigi
+. Bitmap a colori indicizzati
+. Bitmap a colori red-green-blue
+
+.Abilità
+. Saper rappresentare un'immagine su griglia
+****
+
+
+.Immagini vettoriali
+****
+.Conoscenza
+. Vettori geometrici
+. Rappresentazione delle curve
+. Primitive di disegno del formato Scalar Vector Graphics
+
+.Abilità
+. Saper disegnare semplici immagini mediante le primitive dello SVG
+****
+
+.Font tipografici
+****
+.Conoscenza
+. Storia della tipografia
+. Font in formato bitmap
+. Font in formato vettoriale
+. Classificazione dei font per famiglie generiche e proprie, stile, dimensione, peso e variante
+. Uso convenzionale dei font nelle intestazioni e nei capoversi
+
+.Abilità
+. Saper confrontare i font bitmap e vettoriali
+. Saper scegliere il font adatto ad ogni parte di un testo
+****
+
+=== UFC3 - Paradigmi di programmazione
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|3|Paradigmi di programmazione|Gennaio-Febbraio|1 /6
+|===
+
+.Linguaggi descrittivi di tipo funzionale e di tipo logico
+****
+.Conoscenza
+. Numeri naturali e operazioni elementari in un linguaggio basato sulla logica (esempi in __prolog__)
+. Numeri naturali e operazioni elementari in un linguaggio puramente funzionale (esempi in __scheme__)
+. Linguaggi di modellizzazione algebrica e di programmazione per vincoli (esempi in __MiniZinc__)
+
+.Abilità
+. Riconscere la struttura di un programma basato sulla logica
+. Riconoscere la struttura un programma realizzato secondo il paradigma funzionale
+. Riconoscere la struttura di un programma per vincoli
+****
+
+=== UFC4 - Basi di dati relazionali
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|4|Basi di dati relazionali|Febbraio-Marzo|1 /6
+|===
+
+.Analisi e progettazione di una base di dati
+****
+.Conoscenza
+. Diagrammi entità-relazioni
+
+.Abilità
+. Ristrutturare un diagramma entità-relazioni
+****
+
+.Architettura dei sistemi per la gestione delle basi di dati
+****
+.Conoscenza
+. Architettura dei DBMS
+
+.Abilità
+. Saper descrivere i vantaggi e gli svantaggi dell'uso di un DBMS
+. Saper descrivere i concetti di indipendenza fisica e logica nei DBMS
+****
+
+.Fondamenti teorici delle basi di dati relazionali
+****
+.Conoscenza
+. Algebra delle relazioni
+
+.Abilità
+. Saper effettuare  le operazioni di proiezione, restrizione, unione, intersezione, differenza, prodotto cartesiano,giunzione, ridenominazione
+****
+
+=== UFC5 - Structured Query Language
+
+[options="header", frame="topbot",cols="1,5,2,1"]
+|===
+|Numero|Titolo|Periodo|Verifiche
+|5|Structured Query Language|Marzo-Giugno|2 /6
+|===
+
+.DDL, DML, DQL e DCL
+****
+.Conoscenza
+. Sintassi del linguaggio SQL per le operazioni di definizione dei dati
+. Sintassi del linguaggio SQL per le operazioni di inserimento, cancellazione e modifica dei dati
+. Sintassi del linguaggio SQL per le operazioni di interrogazione dei dati
+
+.Abilità
+. Saper creare e interrogare una base di dati relazione in linguaggio SQL
+****
