@@ -84,7 +84,7 @@ const context: Ciclo[] = [
         che deve richiede i concetti di problema, modello, codifica, istanza, soluzione, algoritmo ed esecutore.
         Il concetto di algoritmo è un concetto chiave dell'informatica e richiede un tempo di studio e sedimentazione dei concetti adeguato.`,
         risultati: `Lo studente è in grado di simulare l'esecuzione di un algoritmo, conosce alcuni problemi di ricerca e ordinamento, calcola la complessità computazionale di un semplice algoritmo basandosi sul numero di volte che una certa operazione viene eseguita, valuta l'algoritmo più efficiente per risolvere un problema noto in base alle caratteristiche dell'istanza.`,
-        strumenti: `Le attività di apprendimento interattivo fanno ricorso alla manipolazione di carte da gioco, attività estrapolate da \\cite{csu} e giochi interattivi presenti nella sezione "Interactives" di \\cite{csfg}.
+        strumenti: `Le attività di apprendimento interattivo fanno ricorso alla manipolazione di carte da gioco, attività estrapolate da \\cite{csu} e giochi interattivi presenti nella sezione "Interactives" di \\cite{UniComputerScienceEducationResearchGroupCanterbury2023}.
         Vengono condivise delle risorse di studio con la descrizione degli algoritmi in pseudo-linguaggio, diagramma delle attività e due linguaggi di programmazione.
         L'insegnante esegue passo passo gli algoritmi alla lavagna illustrando le variazioni di stato.`,
         abilita: [

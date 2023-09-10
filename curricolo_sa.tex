@@ -42,94 +42,112 @@ Gionata Massi\institute{
 \maketitle
 
 \begin{abstract}
-Questo contributo presenta un percorso per l'insegnamento dell'informatica
-nel Liceo scientifico, opzione scienze applicate, che affronti la materia intesa come
-una disciplina scientifico/ingegneristica\footnote{Harold Abelson nella
+Questo articolo presenta un curricolo per l'insegnamento dell'informatica
+nel Liceo scientifico opzione scienze applicate che ambisce di introdurre
+la materia come disciplina scientifico/ingegneristica\footnote{Harold Abelson nella
 \href{https://youtu.be/-J_xL4IGhJA}{prima lezione del corso MIT~6.001
 Structure and Interpretation of Computer Programs}
 sembra essere in disaccordo sulla natura scientifica dell'informatica
 % https://www.driverlesscrocodile.com/technology/the-wizard-1-harold-abelson-on-the-essence-of-computer-science-as-formalising-procedural-knowledge/
-} che coniuga creatività e metodo.
+} piuttosto che una formazione professionale sull'uso dei software applicativi,
+come talvolta accade nelle scuole italiane.
 
-Il curricolo rispetta i traguardi di competenza fissati dalle Indicazioni
-nazionali~\cite{IlMinistro2010}
-ma presenta una selezione di argomenti e contenuti
+Il curricolo è orientato all'apprendimento dei fondamenti epistemologici
+dell'informatica in accordo con i traguardi di competenza fissati 
+nelle Indicazioni nazionali ma presenta una selezione di argomenti e contenuti
 che sconcertano studenti, genitori e colleghi perché non rispondono alle attese di un
-percorso di addestramento all'uso delle tecnologie recenti.
+percorso di addestramento all'uso delle tecnologie informatiche.
 
-Nel testo viene fornito un estratto della programmazione didattica nel primo e secondo biennio e nel quinto anno
-indicando un sottoinsieme di argomenti,
-la collocazione all'interno dell'area tematica definita nelle Indicazioni Nazionali,
-la motivazione principale per la scelta degli argomento,
-i traguardi di competenza espressi come abilità verificabili e i materiali didattici usati.
+La didattica di alcuni argomenti richie l'uso del PC e
+del software\footnote{Nella scelta del software ci si è limitati
+alle sole applicazioni rilasciate come software libero o, laddove non fosse
+possibile, a sorgente aperto.} e questo è implicitamente richiesto dalla Indicazioni nazionali
+e non è in contraddizione con gli obiettivi epistemologici.
 
-Il curricolo è orientato alla comprensione dei fondamenti epistemologici
-dell'informatica piuttosto che all'uso delle tecnologie ma richiede l'uso del PC,
-come implicitamente richiesto dalla Indicazioni Nazionali, e applicazioni rilasciate
-come software libero o, laddove non fosse possibile, a solo sorgente aperto.
+Il curricolo è presentato come un estratto della progettazione didattica
+nel primo biennio, nel secondo biennio e nel quinto anno
+elencando un sottoinsieme di argomenti,
+la collocazione all'interno dell'area tematica\footnote{Si vedano le Indicazioni nazionali~\cite{IlMinistro2010}},
+% la motivazione principale per la scelta degli argomento,
+i traguardi di competenza espressi come abilità verificabili e% i materiali didattici usati.
+d eventuali annotazioni.
 
 La sperimentazione del curricolo è stata effettuata tra gli anni scolastici
-2018/19 e 2022/23 coinvolgendo due classi e, soprattutto per la sopraggiunta
-emergenza sanitaria, non è stato possibile condurre analisi
-sul raggiungimento degli obiettivi di competenza prefissati confrontandosi con altre
+2018/19 e 2022/23 coinvolgendo due classi nel corso degli anni e, soprattutto
+a causa della sopraggiunta emergenza sanitaria, non è stato possibile condurre analisi
+comparative sul raggiungimento degli obiettivi di competenza rispetto alle
 classi parallele.
 
 In conclusione il curricolo qui proposto può essere utilizzato come un
 catalogo di traguardi di apprendimento dal quale gli insegnanti possono attingere liberamente
 per la progettazione e la programmazione didattica dell'informatica % che sia formativa e orientante
-del proprio istituto e può essere oggetto di ulteriore sperimentazione.
-
-Lo sviluppo futuro auspicato è quello della produzione da parte della comunità degli insegnanti
-della scuola secondaria di materiali di studio in lingua italiana e di elevata qualità,
-auspicabilmente nella forma di Open Educational Resource (OER) e con revisione da parte accademica,
-che rendano agevole l'adozione di un tale curricolo.
+del proprio istituto; esso è un contributo verso l'insegnamento dell'informatica come disciplina
+scientifica e tecnica piuttosto che come un'addestramento all'uso di strumenti tecnologici e
+e può essere meritevole di ulteriore sperimentazione ma il passaggio dalla didattica dall'applimatica
+a quello dell'informatica ha un costo troppo elevato per i singoli insegnanti
+in assenza di materiali di studio in lingua italiana di elevata qualità,
+auspicabilmente nella forma di Open Educational Resource (OER).
+% Gli editori dei libri di testo scolastici e della comunità degli insegnanti
+% d'informatica della scuola secondaria dovrebbero lavorare in tal senso con il supporto
+% di coordinamento e revisione degli accademici.
 \end{abstract}
 
+% solo per ragioni tipografiche
+\clearpage
+
 \setcounter{tocdepth}{2}
+
 {\small
 \tableofcontents}
 
 \section{Introduzione}
 \label{sect:introduction}
 
-Gli insegnanti di informatica italiani, a differenza dei colleghi di molte
+Gli insegnanti di informatica italiani dei licei italiani, a differenza dei colleghi di molte
 altre nazioni, non hanno sillabi, programmi nazionali e sistemi di valutazione
 sviluppati per l'insegnamento della loro materia ma devono
-progettare e programmare l'attività didattica mediando fra vincoli normativi e
-disparate esigenze.
+progettare e programmare l'attività didattica mediando fra vincoli normativi nazionali,
+quadri europei sulla competenza digitale\footnote{Si veda il DigComp 2.2 con oltre 250 competenze digitali. L'aggettivo \textit{digitale} probabilmente si riferisce alle dita che esercitano pressione sulla tastiera piuttosto che essere la traduzione del falso amico che in passato si traduceva con \textit{numerico}.} 
+e altre  disparate esigenze.
 
-Una delle esigenze è quella di mediare con l'aspettativa dell'utenza, studenti e famiglie,
-e quello che richiedono con maggior frequenza è un percorso di applimatica$\phantom{}^\star$,
-ossia un percorso volto a fornire le istruzioni per l'utente di qualche programma applicativo.
-Anche i colleghi dei consigli di classe hanno le loro aspettative e,
-sempre nell'esperienza dell'autore, richiedono che l'insegnamento includa un certo programma
-per l'elaborazione del testo e un altro per la predisposizione dei lucidi di supporto alla presentazione.
-I docenti di matematica e fisica considerano anche altre categorie di software, in particolare
-i fogli di calcolo, e a volte sistemi per la rappresentazione geometrica e il calcolo numerico o simbolico.
-Sempre limitatamente all'esperienza dell'autore, si considerano solo applicativi con un'interfaccia di tipo
-\textit{What You See Is What You Get}.
+La programmazione didattica disciplinare si realizza come se si
+dovesse ottimizzare un modello di programmazione matematica mai formalizzato.
+Le variabili decisionali sono gli argomenti e i contenuti
+utili a sviluppare le competenze proprie dell'informatica.
+I vincoli sono dati dalle Indicazioni nazionali~\cite{IlMinistro2010} e
+dal Piano Triennale dell'Offerta Formativa della scuola.
+La funzione obiettivo pondera le necessità del territorio,
+l'adeguamento alle aspettative di studenti, genitori e altri insegnanti,
+la presenza dei contenuti del libro di testo in adozione, laddove questo ci sia,
+il riuso del materiale didattico già realizzato,
+l'incentivo al conseguimento di certificati, rilasciati a pagamento, sull'uso di software applicativi,
+specie nel caso in cui la scuola sia sede d'esame,
+la conformità ai \textit{framework di competenze},
+e le conoscenze degli insegnati stessi\footnote{Il requisito di accesso all'insegnamento per la classe di concorso \textit{A-41~--~Scienze e tecnologie informatiche} è molto più lasco rispetto a quelle di altre classi di concorso e molti insegnanti, specie quelli meno giovani, non hanno sostenuto alcun esame di informatica nel percorso universitario.}.
 
-L'aspettativa sull'insegnamento dell'applimatica potrebbe anche essere condizionata dal fatto che molti
-istituti scolastici sono anche certificatori di alcune competenze nell'uso di software applicativi
-soprattutto per l'ufficio.
+Nelle esperienze dell'autore, l'aspettativa dell'utenza e del corpo docente si concentra
+verso un percorso di applimatica$\phantom{}^\star$ volto a fornire agli studenti
+le sole abilità d'uso di qualche programma applicativo con il quale interagire tramite
+un'interfaccia grafica e un comportamento \textit{What You See Is What You Get}\footnote{Questo termine indica che quando usi un'applicazione per modificare un documento, \textit{quello che vedi} nell'interfaccia di modifica \textit{è quello che ottieni} nell'interfaccia di visualizzazione. L'applicazione di modifica e quella di visualizzazione possono coincidere.} (WYSIWYG).
+Nel dettaglio, la classe dei programmi applicativi richiesti dagli insegnanti,
+include sempre un certo programma per l'elaborazione del testo e un altro per la predisposizione dei lucidi di supporto alla presentazione.
+In aggiunta possono essere aggiunti i fogli elettronici e alcuni sistemi per la rappresentazione geometrica e/o per il calcolo numerico o simbolico.
 
-I libri di testo spesso si adeguano a queste aspettative, sicuramente per via delle Indicazioni Nazionali,
-e negli ultimi tre anni propongono un percorso di apprendimento di un linguaggio di programmazione\footnote{%
-Nel primo biennio si sta adottando sempre più frequentemente il termine \textit{coding} e si sostituiscono i linguaggi di programmazione testuali con ambienti grafici per la programmazione visuale a blocchi},
-in genere uno e uno solo e frequentemente il C++\footnote{Bjarne Stroustrup sembra sorpreso dal fatto che il C++ sia ampiamente utilizzato nella didattica in quanto tale linguaggio non è il più compatto e pulito e nella genesi del linguaggio non vi sono elementi sulla natura didattica.% p. 17 C++ libreria standard
+I libri di testo del bienno sono spesso adatti a soddisfare questo genere di aspettative, anche per rispettare le Indicazioni nazionali,
+e negli ultimi tre anni presentano un linguaggio di programmazione\footnote{%
+Nel primo biennio i linguaggi di programmazione sono sostituiti da ambienti grafici per la programmazione visuale a blocchi e il termine \textit{programmazione} è sostituito da \textit{coding}},
+spesso uno solo e frequentemente il C++\footnote{Bjarne Stroustrup sembra sorpreso dal fatto che il C++ sia ampiamente utilizzato nella didattica in quanto tale linguaggio non è il più compatto e pulito e nella genesi del linguaggio non vi sono elementi sulla natura didattica.% p. 17 C++ libreria standard
 }.
 
-Tra settembre e novembre, il gruppo di insegnanti di informatica di un liceo italiano,
-attenendosi alle Indicazioni nazionali e al PTOF della scuola in cui insegna,
-considerate le necessità del territorio,
-tenuto conto delle aspettative di studenti, genitori e colleghi,
-preso atto del libro di testo in adozione o della sua mancanza, 
-progetta o riprogramma la sua programmazione didattica.
-
-Il confronto con i curricola nelle nazioni anglofone, le uniche per le quali l'autore è riuscito ad effettuare
-una ricerca sullo stato dell'arte, inducono a ritenere che il nostro agire didattico per l'apprendimento dell'informatica
-sia disomogeneo, orientato all'uso delle applicazioni e non supportato da materiale di studio valido\footnote{%
-Il sistema scolastico italiano ha molte peculiarità che lo rendono estremante formativo, o almeno questa è l'impressione che se ne ricava quando si assiste ai colloqui pluridisciplinari per gli studenti che hanno frequentato un anno scolastico all'estero, ma questo non si riesce ad asserire per l'informatica.}.
+Nelle nazioni anglofone, le uniche per le quali l'autore è riuscito ad effettuare
+una ricerca sullo stato dell'arte, esistono vari curricula molto ben dettagliati
+che fanno apparire il nostro processo di programmazione didattica disciplinare
+empirica, eterogenea, orientata all'uso delle applicazioni e non supportata da
+materiale di studio valido\footnote{%
+Il sistema scolastico italiano ha molte peculiarità che lo rendono estremante formativo,
+o almeno questa è l'impressione che se ne ricava quando si assiste ai colloqui pluridisciplinari
+degli studenti che hanno frequentato un anno scolastico all'estero,
+ma questa affermazione sembra non essere vera per l'informatica.}.
 
 % Per la disamina dei percorsi didattici è rilevante notare che
 % (a) spesso si tende a sostituire il termine \textit{informatica}
@@ -139,27 +157,23 @@ Il sistema scolastico italiano ha molte peculiarità che lo rendono estremante f
 % (c) i cicli di vita rispecchiano quelli delle tecnologie.
 
 
-Negli Stati Uniti ci sono curricola e attività didattiche progettate in
+Ad esempio, negli Stati Uniti ci sono curricula e attività didattiche progettate in
 dettaglio, come~\cite{Fisler2021} che propone scopi affini
-alle nostre \textit{indicazioni nazionali}~\cite{IlMinistro2010}.
-
-Le esperienze didattiche e i curricula sono spesso raccolti in cataloghi come~\cite{cs4all} e
-vengono offerti vari corsi, anche gratuiti, come quelli sulle piattaforme Code.org~\cite{codeorg}
-e Khan Academy~\cite{khan-academy}, basati sui curricula più noti, come lo Advanced Placement Computer Science~\cite{ap-csp}.
-
-La comunità scientifica appare da tempo attiva nel formulare proposte didattiche che includono lo sviluppo
-di linguaggi di programmazione e ambienti per l'insegnamento\footnote{%
+alle nostre \textit{indicazioni nazionali}~\cite{IlMinistro2010}; le esperienze didattiche e i curricula sono
+spesso raccolte in cataloghi quali~\cite{cs4all} e piattaforme di apprendimento online come Code.org~\cite{codeorg}
+e Khan Academy~\cite{khan-academy} offrono corsi gratuiti basati sui curricula più noti
+come lo Advanced Placement Computer Science~\cite{ap-csp}.
+La comunità scientifica si occupa da tempo della didattica dell'informatica anche tramite lo sviluppo
+di linguaggi di programmazione\footnote{Albeson e Stroustrup, per citare due creatori di linguaggi di programmazione, considerano il linguaggio di programmazione come uno strumento per esprimere le idee sotto forma di codice.} e ambienti per l'insegnamento\footnote{%
 Seymour Papert e Mitchel Resnick sono così famosi tra gli insegnati italiani che è inutile citarli ma il loro contributo ora viene usato per spingere verso il \textit{coding} che pare cosa diversa dalla programmazione.} %
 (\cite{Abelson1996} e \cite{Abelson2022}, \cite{Felleisen2018}). 
-
-In Nuova Zelanda viene sviluppata la una guida interattiva
-\textit{Computer Science Field Guide}~\cite{UniComputerScienceEducationResearchGroupCanterbury2023},
-e il progetto è reputato così interessante da essere tradotto in varie lingue\footnote{La guida è tradotta in tedesco, spagnolo e polacco. Alla lista manca l'italiano e non sono segnalati progetti di traduzione nella lingua italiana.}.
-
-In Gran Bretagna c'è molta attenzione all'insegnamento dell'informatica
+Anche in Gran Bretagna c'è molta attenzione all'insegnamento dell'informatica
 e alla formazione professionale dei docenti\footnote{Un progetto di riferimento è~\cite{nc4ce} ma tante comunità e fondazioni
 di produttori di hardware Open Source che propongono curricula completi.
 }~\cite{Fowler2021}.
+Di rilievo appaiono anche i progetti didattici della Nuova Zelanda e tra quelli dedicati all'informatica
+vi è la \textit{Computer Science Field Guide}~\cite{UniComputerScienceEducationResearchGroupCanterbury2023},
+una guida per insegnanti e studenti che è stata tradotta in varie lingue\footnote{La guida è tradotta in tedesco, spagnolo e polacco. Alla lista manca l'italiano e non sono segnalati progetti di traduzione nella lingua italiana.}.
 
 % Si propone una di queste programmazioni costruita rilassando
 % i vincoli sulle aspettative e sui testi, prevedendo attività
@@ -168,10 +182,11 @@ di produttori di hardware Open Source che propongono curricula completi.
 
 % ambienti didattici interattivi - Interactive learning environments
 
-Nel par.~\ref{sec:curricolo} si propone il curricolo organizzato per ciclo didattico,
-nel successivo par.~\ref{sec:sperimentazione} si chiariscono le cause della mancata
-osservazione comparativa con altre classe del medesimo ciclo e nel
-par.~\ref{sec:conclusioni} si determinano le condizioni dell'applicabilità del curricolo in base
+Questo documento presenta nel par.~\ref{sec:curricolo} la proposta di curricolo
+che l'autore ha progettato riducendo il peso delle scelte relative all'applimatica,
+nel successivo par.~\ref{sec:sperimentazione} si illustra la sperimentazione e si
+chiariscono le cause della mancata osservazione comparativa con altre classe del medesimo ciclo e
+nel par.~\ref{sec:conclusioni} si determinano le condizioni dell'applicabilità del curricolo in base
 alla sperimentazione.
 
 %si tirano le somme..
@@ -183,6 +198,8 @@ alla sperimentazione.
 %%% INIZIO CURRICOLO
 \section[Curricolo]{Curricolo}
 \label{sec:curricolo}
+
+Per esigenze di brevità, il curricolo è riportato in modo parziale e si rimanda il lettore alla pagina \url{https://github.com/gionatamassibenincasa/progettazione-didattica-informatica}.
 
 \input{ls_curricolo.tex}
 %%% FINE CURRICOLO
