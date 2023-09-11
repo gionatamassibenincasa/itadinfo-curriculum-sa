@@ -49,51 +49,46 @@ la materia come disciplina scientifico/ingegneristica\footnote{Harold Abelson ne
 Structure and Interpretation of Computer Programs}
 sembra essere in disaccordo sulla natura scientifica dell'informatica
 % https://www.driverlesscrocodile.com/technology/the-wizard-1-harold-abelson-on-the-essence-of-computer-science-as-formalising-procedural-knowledge/
-} piuttosto che una formazione professionale sull'uso dei software applicativi,
-come talvolta accade nelle scuole italiane.
+}.
+% piuttosto che un'addestramento professionale all'uso dei software applicativi,
+%come talvolta accade nelle scuole italiane.
 
 Il curricolo è orientato all'apprendimento dei fondamenti epistemologici
 dell'informatica in accordo con i traguardi di competenza fissati 
-nelle Indicazioni nazionali ma presenta una selezione di argomenti e contenuti
-che sconcertano studenti, genitori e colleghi perché non rispondono alle attese di un
+nelle Indicazioni nazionali però presenta una selezione di argomenti e contenuti
+che sconcerta le attese di studenti, genitori e colleghi abituati ad un
 percorso di addestramento all'uso delle tecnologie informatiche.
 
-La didattica di alcuni argomenti richie l'uso del PC e
+La didattica di alcuni argomenti richiede l'uso del PC e
 del software\footnote{Nella scelta del software ci si è limitati
 alle sole applicazioni rilasciate come software libero o, laddove non fosse
-possibile, a sorgente aperto.} e questo è implicitamente richiesto dalla Indicazioni nazionali
-e non è in contraddizione con gli obiettivi epistemologici.
+possibile, a sorgente aperto.}, come implicitamente richiesto dalla Indicazioni nazionali,
+senza essere in contraddizione con gli obiettivi epistemologici.
 
-Il curricolo è presentato come un estratto della progettazione didattica
-nel primo biennio, nel secondo biennio e nel quinto anno
-elencando un sottoinsieme di argomenti,
-la collocazione all'interno dell'area tematica\footnote{Si vedano le Indicazioni nazionali~\cite{IlMinistro2010}},
-% la motivazione principale per la scelta degli argomento,
-i traguardi di competenza espressi come abilità verificabili e% i materiali didattici usati.
-d eventuali annotazioni.
+Il curricolo è presentato come un elenco di traguardi di competenza, espressi in termini di abilità verificabili
+nel primo biennio, nel secondo biennio e nel quinto anno, raggruppati come in argomenti e
+aree tematiche\footnote{Si vedano le Indicazioni nazionali~\cite{IlMinistro2010}}.
 
 La sperimentazione del curricolo è stata effettuata tra gli anni scolastici
-2018/19 e 2022/23 coinvolgendo due classi nel corso degli anni e, soprattutto
+2018/19 e 2022/23 coinvolgendo due sezioni e, 
 a causa della sopraggiunta emergenza sanitaria, non è stato possibile condurre analisi
 comparative sul raggiungimento degli obiettivi di competenza rispetto alle
-classi parallele.
+classi parallele che non seguivano lo stesso percorso didattico.
 
 In conclusione il curricolo qui proposto può essere utilizzato come un
-catalogo di traguardi di apprendimento dal quale gli insegnanti possono attingere liberamente
+repertorio di traguardi di apprendimento al quale gli insegnanti possono attingere liberamente
 per la progettazione e la programmazione didattica dell'informatica % che sia formativa e orientante
-del proprio istituto; esso è un contributo verso l'insegnamento dell'informatica come disciplina
-scientifica e tecnica piuttosto che come un'addestramento all'uso di strumenti tecnologici e
-e può essere meritevole di ulteriore sperimentazione ma il passaggio dalla didattica dall'applimatica
-a quello dell'informatica ha un costo troppo elevato per i singoli insegnanti
-in assenza di materiali di studio in lingua italiana di elevata qualità,
-auspicabilmente nella forma di Open Educational Resource (OER).
+nel proprio istituto; esso è un contributo verso l'insegnamento della materia intesa come disciplina
+scientifica e tecnica piuttosto che come applimatica
+e può essere meritevole di ulteriore sperimentazione. Il limite di applicazione di questo percorso
+è l'assenza di materiali di studio di elevata qualità in lingua italiana.
 % Gli editori dei libri di testo scolastici e della comunità degli insegnanti
 % d'informatica della scuola secondaria dovrebbero lavorare in tal senso con il supporto
 % di coordinamento e revisione degli accademici.
 \end{abstract}
 
 % solo per ragioni tipografiche
-\clearpage
+% \clearpage
 
 \setcounter{tocdepth}{2}
 
@@ -103,51 +98,61 @@ auspicabilmente nella forma di Open Educational Resource (OER).
 \section{Introduzione}
 \label{sect:introduction}
 
-Gli insegnanti di informatica italiani dei licei italiani, a differenza dei colleghi di molte
-altre nazioni, non hanno sillabi, programmi nazionali e sistemi di valutazione
-sviluppati per l'insegnamento della loro materia ma devono
-progettare e programmare l'attività didattica mediando fra vincoli normativi nazionali,
-quadri europei sulla competenza digitale\footnote{Si veda il DigComp 2.2 con oltre 250 competenze digitali. L'aggettivo \textit{digitale} probabilmente si riferisce alle dita che esercitano pressione sulla tastiera piuttosto che essere la traduzione del falso amico che in passato si traduceva con \textit{numerico}.} 
-e altre  disparate esigenze.
+Gli insegnanti di informatica dei licei italiani
+non dispongono di estesi sillabi ministeriali, programmi nazionali o
+dettagliati repertori di competenze disciplinari che guidino l'azione didattica 
+in modo uniforme sul territorio nazionale.
+Essi devono progettare e programmare l'attività didattica, per ogni scuola e classe,
+cercando un compromesso fra vincoli normativi nazionali,
+quadri europei \footnote{Agli insegnanti di informatica è richiesto in particolar modo di conformarmi al Digital Competences Framework (DigComp 2.2),
+con elenca oltre 250 competenze digitali legate alle \textit{tecnologie digitali}.
+La traduzione del quadro di riferimento in lingua italiana utilizza il termine \textit{digitale}
+per \textit{digit} come per riferirsi alla pressione delle dita sulla tastiera o,
+più probabilmente, il falso amico \textit{digit} non si traduce più con il termine \textit{numerico}.}
+e aspettative di tanti attori.
 
-La programmazione didattica disciplinare si realizza come se si
-dovesse ottimizzare un modello di programmazione matematica mai formalizzato.
-Le variabili decisionali sono gli argomenti e i contenuti
-utili a sviluppare le competenze proprie dell'informatica.
-I vincoli sono dati dalle Indicazioni nazionali~\cite{IlMinistro2010} e
-dal Piano Triennale dell'Offerta Formativa della scuola.
-La funzione obiettivo pondera le necessità del territorio,
-l'adeguamento alle aspettative di studenti, genitori e altri insegnanti,
-la presenza dei contenuti del libro di testo in adozione, laddove questo ci sia,
-il riuso del materiale didattico già realizzato,
-l'incentivo al conseguimento di certificati, rilasciati a pagamento, sull'uso di software applicativi,
-specie nel caso in cui la scuola sia sede d'esame,
-la conformità ai \textit{framework di competenze},
-e le conoscenze degli insegnati stessi\footnote{Il requisito di accesso all'insegnamento per la classe di concorso \textit{A-41~--~Scienze e tecnologie informatiche} è molto più lasco rispetto a quelle di altre classi di concorso e molti insegnanti, specie quelli meno giovani, non hanno sostenuto alcun esame di informatica nel percorso universitario.}.
+L'attività di progettazione e programmazione didattica
+si realizza come se si dovesse ottimizzare euristicamente
+un modello di programmazione matematica multiobiettivo
+nel quale le variabili decisionali sono gli argomenti e i contenuti
+utili a sviluppare le competenze proprie della materia scolastica,
+i vincoli sono dati dalle Indicazioni nazionali~\cite{IlMinistro2010} e
+dal Piano Triennale dell'Offerta Formativa della scuola, e
+gli obiettivi sono tanti e in contrasto tra loro:
+venire incontro alle richieste del territorio,
+adeguarsi alle aspettative di studenti, genitori e altri insegnanti,
+trovare argomenti e contenuti presenti nel libro di testo in adozione, laddove questo ci sia,
+riutilizzare il materiale didattico già disponibile,
+incentivare gli studenti al conseguimento di certificati\footnote{Spesso
+usare un sistema di valutazione conformità ai \textit{framework di competenze} comunitari,
+le scuole sono sede d'esame per certificazioni sull'uso di software applicativi} e
+non addentrarsi in saperi che gli insegnati non possiedono\footnote{Il requisito di accesso all'insegnamento per la classe di concorso \textit{A-41~--~Scienze e tecnologie informatiche} è molto più lasco rispetto a quelle di altre sezioni di concorso e molti insegnanti, specie quelli meno giovani, non hanno sostenuto alcun esame di informatica nel percorso universitario.}.
 
-Nelle esperienze dell'autore, l'aspettativa dell'utenza e del corpo docente si concentra
+Nell'esperienza dell'autore, l'aspettativa dell'utenza e del corpo docente si concentra
 verso un percorso di applimatica$\phantom{}^\star$ volto a fornire agli studenti
-le sole abilità d'uso di qualche programma applicativo con il quale interagire tramite
-un'interfaccia grafica e un comportamento \textit{What You See Is What You Get}\footnote{Questo termine indica che quando usi un'applicazione per modificare un documento, \textit{quello che vedi} nell'interfaccia di modifica \textit{è quello che ottieni} nell'interfaccia di visualizzazione. L'applicazione di modifica e quella di visualizzazione possono coincidere.} (WYSIWYG).
-Nel dettaglio, la classe dei programmi applicativi richiesti dagli insegnanti,
-include sempre un certo programma per l'elaborazione del testo e un altro per la predisposizione dei lucidi di supporto alla presentazione.
-In aggiunta possono essere aggiunti i fogli elettronici e alcuni sistemi per la rappresentazione geometrica e/o per il calcolo numerico o simbolico.
+le abilità d'uso di qualche programma applicativo con il quale interagire tramite
+un'interfaccia grafica che esibisce un comportamento \textit{What You See Is What You Get}\footnote{Questo termine indica che quando usi un'applicazione per modificare un documento, \textit{quello che vedi} nell'interfaccia di modifica \textit{è quello che ottieni} nell'interfaccia di visualizzazione. L'applicazione di modifica e quella di visualizzazione possono coincidere.} (WYSIWYG).
+L'inseme dei programmi applicativi richiesti dagli insegnanti di altre materie
+include sempre un certo programma per l'elaborazione del testo e
+un altro per la predisposizione dei lucidi di supporto alla presentazione.
+A seconda dei consigli di classe si possono unire all'insieme dei software i fogli elettronici
+e alcuni sistemi per la rappresentazione geometrica e/o per il calcolo numerico o simbolico.
 
 I libri di testo del bienno sono spesso adatti a soddisfare questo genere di aspettative, anche per rispettare le Indicazioni nazionali,
-e negli ultimi tre anni presentano un linguaggio di programmazione\footnote{%
-Nel primo biennio i linguaggi di programmazione sono sostituiti da ambienti grafici per la programmazione visuale a blocchi e il termine \textit{programmazione} è sostituito da \textit{coding}},
+e solo negli ultimi tre anni oltre all'applimatica introducono un linguaggio di programmazione\footnote{%
+Nel primo biennio i linguaggi di programmazione sono sostituiti da ambienti grafici per la programmazione visuale a blocchi e il termine \textit{programmazione} è regredisce in favore di \textit{coding}},
 spesso uno solo e frequentemente il C++\footnote{Bjarne Stroustrup sembra sorpreso dal fatto che il C++ sia ampiamente utilizzato nella didattica in quanto tale linguaggio non è il più compatto e pulito e nella genesi del linguaggio non vi sono elementi sulla natura didattica.% p. 17 C++ libreria standard
 }.
 
-Nelle nazioni anglofone, le uniche per le quali l'autore è riuscito ad effettuare
-una ricerca sullo stato dell'arte, esistono vari curricula molto ben dettagliati
-che fanno apparire il nostro processo di programmazione didattica disciplinare
-empirica, eterogenea, orientata all'uso delle applicazioni e non supportata da
+La situazione nelle nazioni anglofone, le uniche per le quali l'autore è riuscito ad effettuare
+una ricerca sullo stato dell'arte, appare diversa.
+Vi sono curricula molto dettagliati che fanno apparire il nostro processo di programmazione didattica
+come empirico, eterogeneo, orientato all'uso delle applicazioni e non supportato da
 materiale di studio valido\footnote{%
 Il sistema scolastico italiano ha molte peculiarità che lo rendono estremante formativo,
 o almeno questa è l'impressione che se ne ricava quando si assiste ai colloqui pluridisciplinari
 degli studenti che hanno frequentato un anno scolastico all'estero,
-ma questa affermazione sembra non essere vera per l'informatica.}.
+ma questa affermazione sembra non essere generalizzabile per l'informatica.}.
 
 % Per la disamina dei percorsi didattici è rilevante notare che
 % (a) spesso si tende a sostituire il termine \textit{informatica}
@@ -157,18 +162,21 @@ ma questa affermazione sembra non essere vera per l'informatica.}.
 % (c) i cicli di vita rispecchiano quelli delle tecnologie.
 
 
-Ad esempio, negli Stati Uniti ci sono curricula e attività didattiche progettate in
+Negli Stati Uniti si seguono curricula e attività didattiche progettate in
 dettaglio, come~\cite{Fisler2021} che propone scopi affini
-alle nostre \textit{indicazioni nazionali}~\cite{IlMinistro2010}; le esperienze didattiche e i curricula sono
-spesso raccolte in cataloghi quali~\cite{cs4all} e piattaforme di apprendimento online come Code.org~\cite{codeorg}
+alle nostre \textit{indicazioni nazionali}~\cite{IlMinistro2010};
+le esperienze didattiche e i curricula sono
+spesso raccolte in cataloghi~\cite{cs4all}.
+Le piattaforme di apprendimento online come Code.org~\cite{codeorg}
 e Khan Academy~\cite{khan-academy} offrono corsi gratuiti basati sui curricula più noti
 come lo Advanced Placement Computer Science~\cite{ap-csp}.
 La comunità scientifica si occupa da tempo della didattica dell'informatica anche tramite lo sviluppo
 di linguaggi di programmazione\footnote{Albeson e Stroustrup, per citare due creatori di linguaggi di programmazione, considerano il linguaggio di programmazione come uno strumento per esprimere le idee sotto forma di codice.} e ambienti per l'insegnamento\footnote{%
 Seymour Papert e Mitchel Resnick sono così famosi tra gli insegnati italiani che è inutile citarli ma il loro contributo ora viene usato per spingere verso il \textit{coding} che pare cosa diversa dalla programmazione.} %
-(\cite{Abelson1996} e \cite{Abelson2022}, \cite{Felleisen2018}). 
+(\cite{Abelson1996} e \cite{Abelson2022}, \cite{Felleisen2018}).
+% e vi sono comunità di insegnanti.
 Anche in Gran Bretagna c'è molta attenzione all'insegnamento dell'informatica
-e alla formazione professionale dei docenti\footnote{Un progetto di riferimento è~\cite{nc4ce} ma tante comunità e fondazioni
+e alla formazione professionale dei docenti\footnote{Un progetto di riferimento è~\cite{nc4ce} e comunità e fondazioni
 di produttori di hardware Open Source che propongono curricula completi.
 }~\cite{Fowler2021}.
 Di rilievo appaiono anche i progetti didattici della Nuova Zelanda e tra quelli dedicati all'informatica
@@ -183,11 +191,12 @@ una guida per insegnanti e studenti che è stata tradotta in varie lingue\footno
 % ambienti didattici interattivi - Interactive learning environments
 
 Questo documento presenta nel par.~\ref{sec:curricolo} la proposta di curricolo
-che l'autore ha progettato riducendo il peso delle scelte relative all'applimatica,
-nel successivo par.~\ref{sec:sperimentazione} si illustra la sperimentazione e si
-chiariscono le cause della mancata osservazione comparativa con altre classe del medesimo ciclo e
-nel par.~\ref{sec:conclusioni} si determinano le condizioni dell'applicabilità del curricolo in base
-alla sperimentazione.
+che l'autore ha progettato, e seguito con due sezioni, per ridurre i contenuti dell'applimatica e avvicinare
+gli studenti alle problematiche, al sapere e ai metodi dell'Informatica.
+Nel par.~\ref{sec:sperimentazione} illustra la sperimentazione e
+chiarisce le cause della mancata osservazione comparativa con altre classe del medesimo ciclo e
+nel par.~\ref{sec:conclusioni} determina le condizioni dell'applicabilità del curricolo in base
+alla sperimentazione svolta.
 
 %si tirano le somme..
 %Nel par.~\ref{sec:b1} si propongono alcune abilit\`a
@@ -207,49 +216,56 @@ Per esigenze di brevità, il curricolo è riportato in modo parziale e si rimand
 \section{Sperimentazione}
 \label{sec:sperimentazione}
 
-L'azione didattica ispirata da tale curricolo è stata condotta tra gli anni scolastici
-2018/19 e 2022/23 coinvolgendo due classi, di cui una di una sperimentazione quadriennale.
-Entrambe le classi hanno avuto come insegnante, dal primo all'Esame di Stato,
-l'autore di questo contributo.
+L'azione didattica ispirata da tale curricolo si è protratta dall'anno scolastico
+2018/19, quando due classi prime hanno iniziato il percoso, a quello 2022/23 quando gli stessi studenti
+hanno conseguito il diploma.
+% Una delle una due classi rdi una sperimentazione quadriennale.
+%Entrambe le classi hanno avuto come insegnante, dal primo all'Esame di Stato,
+%l'autore di questo contributo.
 
-Le misure adottate per fronteggiare l'emergenza sanitaria per COVID-19 nel periodo in cui
-si è adottato il curricolo hanno condizionato negativamente sulla sperimentazione e sulla
+Le misure adottate per fronteggiare l'emergenza sanitaria per COVID-19
+hanno condizionato negativamente la sperimentazione e invalidato la
 rilevazione dei risultati.
 È stato impossibile condurre un'analisi sul raggiungimento degli obiettivi di competenza per classi
-parallele al termine del secondo anno, periodo in cui gli studenti non erano nelle aule scolastiche,
-e non si è proceduto al rilevamento nel quarto e quinto anno per via della forte eterogeneità con le
-classi parallele che si è avuta anche per l'assenza di didattica.
+parallele, previsto al termine del secondo anno, poi del quarto e del quinto.
+In particolare, al termine del secondo anno gli studenti non erano nelle aule scolastiche e
+anche il terzo anno si è svolto quasi interamente a distanza, senza consentire
+una valutazione affidabile delle competenze.
+Non si è quindi riusciti a seguire in modo accurato il curricolo e non sono
+state effettuate le prove con le classi parallele del quarto e quinto anno
+per via della forte eterogeneità con le altri classi.
 
-L'esperienza si è conclusa per l'esigenza di uniformare l'offerta didattica tra classi parallele,
-per la difficoltà di reperire validi supporti didattici e per la scarsità del tempo che l'autore
-ha trovato per la produzione o la traduzione del materiale didattico.
+La sperimentazione si è conclusa e non è stata riproposta a causa dell'esigenza di uniformare
+l'offerta didattica tra classi parallele e per la difficoltà di reperire validi supporti
+didattici.
+% e per la scarsità del tempo che l'autore
+%ha trovato per la produzione o la traduzione del materiale didattico.
 
 \section{Conclusioni}
 \label{sec:conclusioni}
 
-In conclusione si considera il curricolo qui proposto come
-una proposta coerente con i traguardi di competenze fissate dal  
-Ministero dell'Istruzione e del Merito che include alcuni elementi
-di dettagli della programmazione didattica
-orientati alla disciplina scientifica piuttosto che all'uso delle applicazioni.
-Tale curricolo può essere una bozza per la progettazione e la programmazione
-della didattica dell'informatica % che sia formativa e orientante
-alla quale gli insegnati liceali possono attingere per la costruzione del percorso
-del proprio istituto.
+In conclusione si considera il curricolo qui presentato come
+una proposta coerente con i traguardi di competenze fissati dal  
+Ministero dell'Istruzione e del Merito e orientata alla introduzione
+dell'Informatica come disciplina scientifica piuttosto che come
+apprendistato all'uso delle applicazioni.
 
+Il curricolo può essere una guida per la progettazione e la programmazione
+didattica dell'informatica % che sia formativa e orientante
+alla quale gli insegnati liceali possono attingere per la costruzione del percorso
+didattico del proprio istituto ma
 % Non si possono fornire indicazioni sull'efficacia della proposta a causa della mancanza di uno studio comparativo.
-Il curricolo presenta alcune difficoltà di realizzazione in particolare per
-la mancanza di materiali di studio, auspicabilmente nella forma di Open Educational Resource (OER),
-in lingua italiana e di qualità elevata.
+%Il curricolo
+presenta una difficoltà di realizzazione dovuta alla mancanza di materiali di studio di qualità elevata in lingua italiana,
+quali potrebbero essere i libri di testo o di Open Educational Resource (OER).
 
 %L'esperienza è però difficile da riprodurre e richiede la produzione di tanto materiale
 %didattico da fornire agli studenti.
 
-Questa difficoltà è superabile se gli insegnanti partecipano a comunità professionali
-che arricchiscano di OER i progetti esistenti, come quello del Politecnico di Torino~\cite{fare}.
-Oltre agli OER servono libri di testo e piattaforme didattiche.
-Testi e piattaforme ci sono sono già ma occorre un impegno della comunità nella traduzione
-professionale dei migliori progetti didattici già attuati all'estero.
+Per superare questa difficoltà servirebbe la costruzione di una comunità professionale
+che contribuisca ai progetti esistenti, come il repertorio di OER del Politecnico di Torino~\cite{fare},
+al miglioramento dei libri di testo e delle piattaforme didattiche, e alla 
+traduzione professionale dei migliori progetti didattici in lingua straniera.
 
 \label{sect:bib}
 %\addcontentsline{toc}{section}{\refname}
